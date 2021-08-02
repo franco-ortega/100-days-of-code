@@ -30,7 +30,7 @@
 2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence) -->
 
 
-### Day 1: Sunday, August 27, 2021
+### Day 1: Sunday, August 1, 2021
 
 **Project:** Hide & Seek game where the computer and user alternate between hiding an item and finding the hidden item. The game logic is complete for this current version. Now I'm working on styling, which is an area which I"m trying to improve. In particular, I'm adding colors and fine tuning the layout. I used the [Coolors](https://coolors.co/) website to help pick my color palette.
 
