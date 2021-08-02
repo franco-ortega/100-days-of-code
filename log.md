@@ -32,10 +32,15 @@
 
 ### Day 1: Sunday, August 27, 2021
 
-**Today's Progress**: 
+**Project:** Hide & Seek game where the computer and user alternate between hiding an item and finding the hidden item. The game logic is complete for this current version. Now I'm working on styling, which is an area which I"m trying to improve. In particular, I'm adding colors and fine tuning the layout. I used the [Coolors](https://coolors.co/) website to help pick my color palette.
 
-**Thoughts** 
+**Tech:** React, Sass
+
+**Today's Progress:** (~90 min) I moved a dropdown menu from the Home page to the Welcome page. Then, I adjusted the styling on the Welcome page for four screen sizes (mobile, tablet, desktop small, desktop large).
+
+**Thoughts:** Yesterday, I spent over an hour adding the colors to the Welcome page and fine tuning its layout. However, in addition to wanting to move the dropdown menu to the Welcome page today, I also wanted the Welcome page styling to be more consistent with the styling on the Home page. This was tricky to achieve because the two pages have very different amounts of content, and even now, not all the styling is the exact same (especially not on smaller screen sizes), but they are a lot more consistent. The work yesterday and today took much longer than I expected, but I am happy with the results. Tomorrow I will update the styling on the Game page.
 
 **Link(s) to work**
-1. A
-2. B
+1. [Repo](https://github.com/franco-ortega/hide-and-seek)
+2. [Pull Request](https://github.com/franco-ortega/hide-and-seek/commit/6f9262b1c17cd24118c48f606b812ce70141dec7)
+3. [Website](https://hide-and-seek-game.netlify.app/)
