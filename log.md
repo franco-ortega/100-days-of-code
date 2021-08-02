@@ -32,7 +32,7 @@
 
 ### Day 1: Sunday, August 1, 2021
 
-**Project:** Hide & Seek game where the computer and user alternate between hiding an item and finding the hidden item. The game logic is complete for this current version. Now I'm working on the styling, which is an area that I want to improve in general. My current tasks are to add colors and to create a clean and responsive layout. I used the [Coolors](https://coolors.co/) website to help pick my color palette.
+**Project:** Hide & Seek game where the computer and user alternate between hiding an item and finding the hidden item. The game logic is complete for this current version. Now I'm working on the styling, which is an area that I want to improve in general. My current tasks are to add colors and to fine tune the responsive layout. I used the [Coolors](https://coolors.co/) website to help pick my color palette.
 
 **Tech:** React, Sass
 
