@@ -44,3 +44,18 @@
 1. [Repo](https://github.com/franco-ortega/hide-and-seek)
 2. [Pull Request](https://github.com/franco-ortega/hide-and-seek/commit/6f9262b1c17cd24118c48f606b812ce70141dec7)
 3. [Website](https://hide-and-seek-game.netlify.app/)
+
+### Day 2: Monday, August 2, 2021
+
+**Project:** Hide & Seek game where the computer and user alternate between hiding an item and finding the hidden item. The game logic is complete for this version. Currently working on the styling.
+
+**Tech:** React, Sass
+
+**Today's Progress:** (~2 hr) Started working on adding colors and updating the styling to the Game page, which also included the Scoreboard and GameBoard components. Only got to the layout for the mobile view, and that still needs work.
+
+**Thoughts:** I was able to apply the colors fairly quickly. However, it turned out that there needed to be a lot of restructuring of the Game and Scoreboard components while working on the layout of the components and elements. The trickiest part was that the amount of content in one p-tag changed throughout the game, but it needed to remain a consistent size the whole time; otherwise, the items below it would shift around. Although, I didn't want all the p-tags to have that same size. I had been using Display Flex but switched to Grid, which worked, but it also caused other problems. In the end, I switched back to Flex and used a CSS selector combinator to target the proper p-tag without affecting any of the other p-tags.
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/hide-and-seek)
+2. [Pull Request](https://github.com/franco-ortega/hide-and-seek/commit/38b185b77fcab01794b39f55c639229778daf100)
+3. [Website](https://hide-and-seek-game.netlify.app/)
