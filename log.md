@@ -59,3 +59,18 @@
 1. [Repo](https://github.com/franco-ortega/hide-and-seek)
 2. [Pull Request](https://github.com/franco-ortega/hide-and-seek/commit/38b185b77fcab01794b39f55c639229778daf100)
 3. [Website](https://hide-and-seek-game.netlify.app/)
+
+### Day 3: Tuesday, August 3, 2021
+
+**Project:** Hide & Seek game where the computer and user alternate between hiding an item and finding the hidden item. The game logic is complete for this version. Currently working on adding styling and fine tuning the layout.
+
+**Tech:** React, Sass
+
+**Today's Progress:** (~4 hr) Made a lot of progress on the third (out of 4) page - the Game component, which also included the Scoreboard, GameBoard, and HidingSpot components. Got a lot of the layout and styling fine tuned. I learned how to style disabled buttons, too, by using the **:disabled** pseudo-class. Additionally, I did a lot of refactoring to clean up the custom hook that handles the many messages (and different types of messages: instructions, results, round change) that are dynamically rendered to the screen during gameplay. This last effort included the replacing of multiple **if statements** with **switch statements**.
+
+**Thoughts:** I worked twice as long as I expected, but it felt good to feel like I was making progress most of that time. This week I'm gaining a much better understanding of custom hooks - what they can and cannot do. Also, it was really nice to clean up the code because things got somewhat clunky as I added more features. I made a plan when I started this project, and that plan was a great guide. However, I didn't update the plan as the project grew and evolved. New features were plugged in here and there, but I didn't take enough time to step back and look at the big picture, so this was a good lesson in the importance of updating plans with every new version of a project. It would've been nice to have kept documentation on the changes too. Next time. Additionally, I had thought that pseudo-classes didn't work on mobile, so I had been avoiding them. But apparently, maybe it's only **:hover** that doesn't work properly on mobile. Anyway, this was great to realize, so now I'll start digging more into pseudo-classes. Finally, switch statments were something that I pretty much never used during code school cos they seemed hard for my newbie brain to understand, or at least remember. However, today it was relatively easy to implement them. It sure feels great when something that was super hard is now pretty easy.
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/hide-and-seek)
+2. [Commit](https://github.com/franco-ortega/hide-and-seek/commit/5325c16bf0b3df3875719ac76016934219417872)
+3. [Website](https://hide-and-seek-game.netlify.app/)
