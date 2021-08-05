@@ -74,3 +74,18 @@
 1. [Repo](https://github.com/franco-ortega/hide-and-seek)
 2. [Commit](https://github.com/franco-ortega/hide-and-seek/commit/5325c16bf0b3df3875719ac76016934219417872)
 3. [Website](https://hide-and-seek-game.netlify.app/)
+
+### Day 4: Wednesday, August 4, 2021
+
+**Project:** Hide & Seek game where the computer and user alternate between hiding an item and finding the hidden item. The game logic is complete for this version. Currently working on adding styling and fine tuning the layout.
+
+**Tech:** React, Sass
+
+**Today's Progress:** (~2 hr) Added styling to the fourth and final page of the app: the Results page where the user is directed when the game ends.
+
+**Thoughts:** It's been fairly tricky trying to apply consistent styling to each page since they all have different amounts of content and somewhat different elements. However, it feels good for everything to finally have the same color scheme and a pretty similar layout. I think and hope that fine tuning it all will go relatively quickly. Also, adding opacity to the styled buttons when they are disabled has been quirkier than I anticipated. The original issue was that the buttons were taking on the color of their backgrounds on mobile devices (why??), so I applied colors to their backgrounds to help differentiate them from the actual background. However, when I did this, the default styling (that faded look) for buttons was no longer being applied. So, I manually turned down the opacity a little, which looked as expected when viewed locally. However, on the live site, the small degree of opacity appears to make the buttons totally invisible when disabled, which is not the desired effect. So, I'll look into that tomorrow.
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/hide-and-seek)
+2. [Commit](https://github.com/franco-ortega/hide-and-seek/commit/20acbb7d4d3b25687c0d5f5c9494b573a4ad30d5)
+3. [Website](https://hide-and-seek-game.netlify.app/)
