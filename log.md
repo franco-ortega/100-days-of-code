@@ -89,3 +89,18 @@
 1. [Repo](https://github.com/franco-ortega/hide-and-seek)
 2. [Commit](https://github.com/franco-ortega/hide-and-seek/commit/20acbb7d4d3b25687c0d5f5c9494b573a4ad30d5)
 3. [Website](https://hide-and-seek-game.netlify.app/)
+
+### Day 5: Thursday, August 5, 2021
+
+**Project:** Hide & Seek game where the computer and user alternate between hiding an item and finding the hidden item. The game logic is complete for this version. Currently working on adding styling and fine tuning the layout.
+
+**Tech:** React, Sass
+
+**Today's Progress:** (~4 hr) Worked on making the styling more consistent across all 4 pages and the header on mobile and tablet views.
+
+**Thoughts:** My initial styling efforts focused on one page at a time with media queries for a total of 4 different screen sizes. However, this resutled in some consistency variations between each pages. The degree of inconsistency seemed to increase from page to page from first to last Also, the main Game page, which houses the most components, differed most from all the otehr pages. I almost tried to make the Game page styling line up more with the rest of the pages, but then, I opted not to go down that rabbit hole. It looks good as it is, and a more unique look may be apprpriate for the main page since it is where users will spend their most time. Next time, though, instead of doing one page at a time for all screen sizes, I may focus on doing all the pages for one screen size before moving onto the next screen size. That way I can see how the entire app design changes on the next screen size, instead of just one page at a time. Also, using more CSS variables would be helpful for keeping things (like font sizes) consistent across all the pages, and if/when I do change a font-size, it will change on all pages at once simply by changing the value of the variable. Lessons learned. Also, I used the nth-child CSS property today for the first time to give a unique styling to the third (out of four) section on the Game page. I was having a lot of trouble targetting just that one until I used the nth-child property. I could have used a class to target it specifically, but I'm trying to keep my class names to a miminum of one per page.
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/hide-and-seek)
+2. [Commit](https://github.com/franco-ortega/hide-and-seek/commit/52db72a7b5e66537d08e0933ddaf94a9319f615f)
+3. [Website](https://hide-and-seek-game.netlify.app/)
