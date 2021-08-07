@@ -104,3 +104,19 @@
 1. [Repo](https://github.com/franco-ortega/hide-and-seek)
 2. [Commit](https://github.com/franco-ortega/hide-and-seek/commit/52db72a7b5e66537d08e0933ddaf94a9319f615f)
 3. [Website](https://hide-and-seek-game.netlify.app/)
+
+### Day 6: Friday, August 6, 2021
+
+**Project:** Tailwind demo.
+
+**Tech:** React, Tailwind
+
+**Today's Progress:** (~2 hr) This morning I tuned into a great Tailwind presentation by Tis Lais that was clear and thorough. It focused on using Tailwind with React, and she even shared how to maneuver some of the trickier aspects of installation at the beginning and deployment on Netlify at the end. Then, this afternoon, I spent a couple hours spinning up a quick, simple project to start to get a feel for Tailwind.
+
+**Thoughts:** I'd been meaning to checkout out Tailwind since March but kept putting it off because other practicing and learnings took priority. However, also, I wasn't sure how complicated it would be to figure out. But the presentation today was very well done and made me feel like I could give it a go. And indeed, I was able to install and configure everything relatively quickly and very smoothly. Also, I learned enough during the presentation to have a good feel for how to implement the Tailwind code in a React app. The tricky part about the Netlify build did trip me up and took a few times to sort out, but again, the issue was solved super quick thanks to the guidance by the presenter this morning. If you feel fairly comfortable with CSS, I definitely recommend giving Tailwind a whirl. The documentation is very helpful, and the built-in styling can be implenented pretty quickly. Also, there are option for customization as well.
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/demo-tailwind-01)
+2. [Website](https://amazing-fantasy.netlify.app/)
+3. [Presenation repo by Tis Lais](https://github.com/tislais/project-owlfeather)
+4. [Presentation site by Tis Lais](https://owlfeather.netlify.app/)
