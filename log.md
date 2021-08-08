@@ -120,3 +120,17 @@
 2. [Website](https://amazing-fantasy.netlify.app/)
 3. [Presenation repo by Tis Lais](https://github.com/tislais/project-owlfeather)
 4. [Presentation site by Tis Lais](https://owlfeather.netlify.app/)
+
+### Day 7: Saturday, August 7, 2021
+
+**Project:** Server-03
+
+**Tech:** Node, Express, PostgreSQL
+
+**Today's Progress:** (~90 min) I started building a server with a RESTful API and relational database. I implemented test-driven development while creating one table (tiles) with a corresponding model (Tile) and a POST endpoint.
+
+**Thoughts:** I did as much as I could from memory without using references. I did very well with this for the app.js and server.js files. I did pretty well with the table and model. The test and endpoint were somewhat trickier, but I was able to get close to completing them from memory. The only file that I needed to pretty much completely reference from past projects was the pool.js file. All in all, I feel good about my effort and progress this evening.
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/demo-server-03-joins)
+2. [Commit](https://github.com/franco-ortega/demo-server-03-joins/commit/447f33c52e78e9b397f17866a8c73564711072f8)
