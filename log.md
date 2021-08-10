@@ -135,7 +135,7 @@
 1. [Repo](https://github.com/franco-ortega/demo-server-03-joins)
 2. [Commit](https://github.com/franco-ortega/demo-server-03-joins/commit/447f33c52e78e9b397f17866a8c73564711072f8)
 
-### Day 8: Saturday, August 8, 2021
+### Day 8: Sunday, August 8, 2021
 
 **Project:** Server-03
 
@@ -149,3 +149,18 @@
 1. [Repo](https://github.com/franco-ortega/demo-server-03-joins)
 2. [Pull Request #1](https://github.com/franco-ortega/demo-server-03-joins/commit/644d8d08d3a8b0f1db612da95bfc4cef52e76b45)
 3. [Pull Request #1](https://github.com/franco-ortega/demo-server-03-joins/commit/ce90443a9bda11d119c23f88f6d7038db0ee444a)
+
+
+### Day 9: Monday, August 9, 2021
+
+**Project:** Server-03
+
+**Tech:** Node, Express, PostgreSQL
+
+**Today's Progress:** (1 hr) I added a second table (floors) to create joins with the first table. ALso, I added created a Floor model with a POST endpoint and two GET endpoints (get all, get by id) as well as their correspondings methods and tests.
+
+**Thoughts:** Things went pretty smoothly. The hiccups were: 1) I forgot to add the CASCADES keyword to drop the main table; 2) I created a floor in the "get by id" test with a post request, which gave me an issue because I was dynamically creating up its endpoint with its id, but floor.id was resulting in a failed request because it turned out that I needed to use floor.body.id to get the floor id out of the response via the response body; 3) I had to decouple the tiles tests to run independently of each other because now the tiles were tied to the floors table, and that was causing issues with the tiles tests.
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/demo-server-03-joins)
+2. [Pull Request](https://github.com/franco-ortega/demo-server-03-joins/commit/07081371878ba40b7c1c7a86a929cbdf345639e6)
