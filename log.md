@@ -164,3 +164,18 @@
 **Link(s) to work**
 1. [Repo](https://github.com/franco-ortega/demo-server-03-joins)
 2. [Pull Request](https://github.com/franco-ortega/demo-server-03-joins/commit/07081371878ba40b7c1c7a86a929cbdf345639e6)
+
+
+### Day 10: Monday, August 10, 2021
+
+**Project:** Python Games
+
+**Tech:** Python
+
+**Today's Progress:** (1 hr) I built a four games with Python today: Mad Libs, Guess A Number (two versions: one where the player guesses and one where the computer guesses), and Rock Paper Scissors. You can check out the tutorial here: [12 Beginner Python Projects](https://www.youtube.com/watch?v=8ext9G7xspg).
+
+**Thoughts:** I played with Python a tiny bit earlier this year, but today I started to really learn it. The main reason is because a company I'm interviewing with - which seems mostly JavaScript-based (React, Node) - seems to have a bit of Python in their tech stack. I actually started by learning about NumPy, which was mentioned in the job post, and then I watched a couple hours of a video tutorial for beginners: [Learn Python - Full Course for Beginners](https://www.youtube.com/watch?v=rfscVS0vtbw). After that, I started building the games. Python seems similar enough to JavaScript that I've been able to follow along pretty easily. The main difference that I've noticed so far is that Python lists appear to be more powerful than JavaScript arrays. Especially when used with NumPy to create multi-dimensional arrays. This was the NumPy tutorial: [Python NumPy Tutorial for Beginners](https://www.youtube.com/watch?v=QUT1VHiLmmI)
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/python-01-games)
+2. [Pull Request](https://github.com/franco-ortega/python-01-games/commit/37a2fc44a24716a8db817b729dd4cd16781e6ef9)
