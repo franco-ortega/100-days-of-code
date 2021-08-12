@@ -166,7 +166,7 @@
 2. [Pull Request](https://github.com/franco-ortega/demo-server-03-joins/commit/07081371878ba40b7c1c7a86a929cbdf345639e6)
 
 
-### Day 10: Monday, August 10, 2021
+### Day 10: Tuesday, August 10, 2021
 
 **Project:** Python Games
 
@@ -179,3 +179,20 @@
 **Link(s) to work**
 1. [Repo](https://github.com/franco-ortega/python-01-games)
 2. [Pull Request](https://github.com/franco-ortega/python-01-games/commit/37a2fc44a24716a8db817b729dd4cd16781e6ef9)
+
+
+### Day 11: Wednesday, August 11, 2021
+
+**Project:** Portfolio
+
+**Tech:** React
+
+**Today's Progress:** (3 hr) I did some reading to get a better understanding of the "children" prop in React. Then, I made use of the children prop to create a reusable component for some of the popups on my portfolio site. Each popup has different kinds and amounts of elements, and the children prop was perfect for handling these kinds of differences among child components who using the same reusable parent component.
+
+**Thoughts:** My portfolio site is map-themed. I was hoping to use a lot of reusuable components for the landmasses. Especially since the landmasses were composed of nested elements that were practically identical in amount and kind. However, one issue for the large continents was that they were all-shaped differently, and this shape was determined by the outermost element, so it didn't seem convenient (or even possible?) to create a reusable component that had different styling on the outermost level. It seemed more feasible to have the outer layer be the same and then pass in more varied components as the children. But that did not work for what I was creating. On the flip side, I was able to create a reusable component for the small islands because they had identical styling as well as the amount and kind of content was the same for each one (a pair of strings passed as regular props). Additionally, each continent could be clicked to open a popup with more details. Originally, the popups all had different shapes, too, but I streamlined their shape last month. Yet their contents remained very varied, so they didn't seem suitable to use with a reusable component. However, getting a better understanding of the children prop today made me realize that I could use that to create a reusable parent component for the continent popups. This allowed me to remove CSS that was repeated in multiple continent files and place it in the new reusable component. Then, I called the reusable component into each of the continent files and wrapped it around their content. Also, apparently, the children prop wraps the child component in a div, and that extra element caused some problems with CSS because that div was now a new layer between the original layers of the popup, so I did have to add back a tiny bit of CSS back into the continent popups, but overall, the reusable component still notably reduced the total amount of CSS.
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/portfolio)
+2. [Pull Request](https://github.com/franco-ortega/portfolio/commit/26a3b457f4d6208f7d1cb80c35a37e04c20e0573)
+3. [Website](https://francoortega.com/)
+4. [Children in JSX](https://reactjs.org/docs/jsx-in-depth.html#children-in-jsx)
