@@ -196,3 +196,19 @@
 2. [Pull Request](https://github.com/franco-ortega/portfolio/commit/26a3b457f4d6208f7d1cb80c35a37e04c20e0573)
 3. [Website](https://francoortega.com/)
 4. [Children in JSX](https://reactjs.org/docs/jsx-in-depth.html#children-in-jsx)
+
+
+### Day 12: Thursday, August 12, 2021
+
+**Project:** Hide & Seek
+
+**Tech:** React, Sass
+
+**Today's Progress:** (2 hr) I finalized the styling to make it consistent on all pages and make it responsive across four screen sizes. Also, I removed a piece of state that turned out to be repetitive, and I was able to consolidate two variables - that served different purposes but were actually created the same way - into one.
+
+**Thoughts:** Styling is an aspect of web development that I want to get better at, but I tend to put it off or not really get to it with personal projects, so it felt great to devote time to figuring out colors and a layout that I really liked. It took much longer than I expected to apply the styling to every page for every screen size, and then, to make sure it was consistent, but I did it, and I learned some good lessons along the way. Lessons about CSS and the process of applying and fine tuning styling.
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/hide-and-seek)
+2. [Pull Request](https://github.com/franco-ortega/hide-and-seek/commit/c6f3c4f50c060970d2e755967eab0f84bf64dcc2)
+3. [Website](https://hide-and-seek-game.netlify.app/)
