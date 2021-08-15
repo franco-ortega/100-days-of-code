@@ -220,6 +220,22 @@
 
 **Tech:** Phaser.io, Node, Express
 
-**Today's Progress:** (~3 hr) I attended a great presentation on [Phaser.io](https://phaser.io/) by [CameronZimmerman](https://github.com/CameronZimmerman) who provided everyone with a repo to clone down and code along. The project was a game where a character scored points by flying in between stationary obstacles. It was a very fun 2-hr demo, and I spent about another hour finishing it up and debugging.
+**Today's Progress:** (~3 hr) I attended a great presentation on [Phaser.io](https://phaser.io/) by [Cameron Zimmerman](https://github.com/CameronZimmerman) who provided everyone with a repo to clone down and code along. The project was a game where a character scored points by flying in between stationary obstacles. It was a very fun 2-hr demo, and I spent about another hour finishing it up and debugging.
 
 **Thoughts:** I'm a big fan of games, so getting an introduction to a gaming framework was a big treat. There is certainly much more learn, but this introduction provided a very helpful gateway into Phaser.io. I don't have my code for this on GitHub, but you can check out Cameron's repo for his version: [Flappy Duck repo](https://github.com/CameronZimmerman/phaser-flappy-duck-finished)
+
+
+### Day 14: Saturday, August 14, 2021
+
+**Project:** Hide & Seek
+
+**Tech:** React, Sass
+
+**Today's Progress:** (1 hr) I added Context (as in React Context) to handle the player state that is used in most of the components.
+
+**Thoughts:** I had only used Context a couple times before, and this was back in the spring. I was somewhat fuzzy on how to write the code for it back then, but this time it was pretty quick and easy to add it to this app. I wouldn't say that I understand it well yet, but it's starting to click much better than it did 6 months ago.
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/hide-and-seek)
+2. [Pull Request](https://github.com/franco-ortega/hide-and-seek/commit/8eec4fbc33683737cb0c7e21b9e3c75fde92db47)
+3. [Website](https://hide-and-seek-game.netlify.app/)
