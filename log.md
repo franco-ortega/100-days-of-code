@@ -239,3 +239,25 @@
 1. [Repo](https://github.com/franco-ortega/hide-and-seek)
 2. [Pull Request](https://github.com/franco-ortega/hide-and-seek/commit/8eec4fbc33683737cb0c7e21b9e3c75fde92db47)
 3. [Website](https://hide-and-seek-game.netlify.app/)
+
+
+### Day 15: Sunday, August 15, 2021
+
+**Project:** Hide & Seek
+
+**Tech:** React, Sass
+
+**Today's Progress:** (2 hrs) I did a lot of refactoring today. I removed the gameOver state, which was mostly created to determine when the Scoreboard was rendered in the Header (which was only during gameplay). However, now the Scoreboard is rendered in the Game component, which itself is only rendered during gameplay, so the Scoreboard no longer needed conditional rendering. Then, I used to gameActive state to take over the remaining purpose of the gameOver state, which was to display a "Game Over" message when the game ends.
+
+Additionally, I added the gameActive state to the Context.
+
+Finally, I refactored the two useEffects in the Game component to reduce repetitive code in the first one, and to more accurately define the conditional statements in the second one. Also, I added a gameOver variable to the first useEffect to make it more obvious what the conditional statements were checking.
+
+**Thoughts:** It felt really great to clean up the code and make it more readable.
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/hide-and-seek)
+2. [Pull Request #1 - refactor](https://github.com/franco-ortega/hide-and-seek/commit/f6aa334f750a2210c69a165333a5653a849f02ea)
+2. [Pull Request #2 - context update](https://github.com/franco-ortega/hide-and-seek/commit/ace4883d4cc1cf2265b02457eed27eb49801e1f8)
+2. [Pull Request #3 - refactor useEffects](https://github.com/franco-ortega/hide-and-seek/commit/f8b9dd1d1faea56486a3ae7118c29aa3c450de84)
+3. [Website](https://hide-and-seek-game.netlify.app/)
