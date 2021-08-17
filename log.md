@@ -261,3 +261,19 @@ Finally, I refactored the two useEffects in the Game component to reduce repetit
 2. [Pull Request #2 - context update](https://github.com/franco-ortega/hide-and-seek/commit/ace4883d4cc1cf2265b02457eed27eb49801e1f8)
 2. [Pull Request #3 - refactor useEffects](https://github.com/franco-ortega/hide-and-seek/commit/f8b9dd1d1faea56486a3ae7118c29aa3c450de84)
 3. [Website](https://hide-and-seek-game.netlify.app/)
+
+
+### Day 16: Monday, August 16, 2021
+
+**Project:** Hide & Seek
+
+**Tech:** React, Sass
+
+**Today's Progress:** (1 hr) I implemented suggestions that were kindly provided by [Matan B.](https://github.com/MatanBobi). This included the refactor of a function to remove an unnecessary variable, as well as creating a couple enum-like objects for passing around strings as object property values instead of directly passing the strings themselves. The refactor helped the function looked cleaner, and the enums are meant to help avoid typos.
+
+**Thoughts:** I've been on a big refactoring kick, so it was fun to get advice from someone else on how to do more of it.
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/hide-and-seek)
+2. [Pull Request #1](https://github.com/franco-ortega/hide-and-seek/commit/f0b2f7d620cf5f22f0cf22183be080b479c8df8e)
+3. [Website](https://hide-and-seek-game.netlify.app/)
