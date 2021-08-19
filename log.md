@@ -277,3 +277,26 @@ Finally, I refactored the two useEffects in the Game component to reduce repetit
 1. [Repo](https://github.com/franco-ortega/hide-and-seek)
 2. [Pull Request #1](https://github.com/franco-ortega/hide-and-seek/commit/f0b2f7d620cf5f22f0cf22183be080b479c8df8e)
 3. [Website](https://hide-and-seek-game.netlify.app/)
+
+
+### Day 17: Tuesday, August 17, 2021
+
+**Project:** Rest
+
+**Tech:** Couch, bed.
+
+**Today's Progress:** Going to bed on time.
+
+**Thoughts:** I did a lot of work today, which included a few hours of job searching, two pet sitting gigs, studying, physical therapy, and cooking. I could have squeezed in an hour of coding, but taking breaks is super important in this line of work, so I opted to get proper rest instead of needlessly pushing myself.
+
+
+### Day 18: Wednesday, August 18, 2021
+
+**Project:** Code Challenge
+
+**Tech:** Leet Code
+
+**Today's Progress:** I worked on two code challenges today. The first took in an array of sorted numbers and a target number. The task was to find the target number's location in the array and return the index, or if it wasn't in the array, to return the location where it would go in numerical order. The second code challege provided an array of sorted numbers and function that determined which numbers broke another piece of code. The task was to determine what was the first number to break the code.
+
+**Thoughts:** The first code challenge was relatively easy to solve with a for loop. Although, initially, I didn't account for numbers that were lower than the first number in the array or higher than the last number, but that was a pretty quick fix. The second code challenge required a binary search algorithm. I've been diving deeper into algorithms lately, so it was good to come across a code challenge that required one that I recently got a better understanding of.
+
