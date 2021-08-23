@@ -300,3 +300,51 @@ Finally, I refactored the two useEffects in the Game component to reduce repetit
 
 **Thoughts:** The first code challenge was relatively easy to solve with a for loop. Although, initially, I didn't account for numbers that were lower than the first number in the array or higher than the last number, but that was a pretty quick fix. The second code challenge required a binary search algorithm. I've been diving deeper into algorithms lately, so it was good to come across a code challenge that required one that I recently got a better understanding of.
 
+
+### Day 19: Thursday, August 19, 2021
+
+**Project:** Glowing Colors
+
+**Tech:** React, CSS
+
+**Today's Progress:** I started work on a site that will display colorful orbs which fade in and out of existence.
+
+**Thoughts:** I made good progress on creating the orbs and rendering the colors dynamically, so every orb has different colors, and the colors change on every page load. Then, I used an animation to make the orbs fade in and out of view. Toward the end of this session, I used a setInterval to make the orbs change colors every time they went out of view. This worked well for the first few fades in and out, but soon, the color change and fade fell out of sync, and a little while later, the colors started changing very rapidly. I'm not entirely sure what is causing this issue, but I blame the event loop.
+
+
+### Day 20: Friday, August 20, 2021
+
+**Project:** Job Searching
+
+**Tech:** Job Sites, Networking
+
+**Today's Progress:** Lots of job searching today, which included an online career fair. I applied to a bunch of places for a total of 25 this week, which is notably higher than my previous record last week of 15 applications.
+
+**Thoughts:** Out of the 25 applications, only 7 were full-on application with lengthy questions and/or cover letters that took an hour or two to write. The rest received cover letters that were quicker to write, or they didn't accept cover letters at all. My aim is to send out one application per weekday that inspires my to put a lot of effort into the cover letter, plus another 2+ applications that I can complete quickly. Usually, this takes 3 hrs per the morning, but next week I'm going to try and get it done in 2 hrs.
+
+
+### Day 21: Saturday, August 21, 2021
+
+**Project:** Rest
+
+**Tech:** Couch, bed.
+
+**Today's Progress:** A day of rest after a very long week of job searching and attending networking events.
+
+**Thoughts:** Rest is super important.
+
+
+### Day 22: Sunday, August 22, 2021
+
+**Project:** Glowing Colors
+
+**Tech:** React, CSS
+
+**Today's Progress:** Today I restared this project pretty much from scratch in order to implement test-drive development.
+
+**Thoughts:** I flew through making this site last Thursday, but now I want to take a somewhat slower approach. Also, I need to brush up on my testing skills, so I spent time watching a tutorial on the React Testing Library. It was super helpful. The link is below.
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/glowing-colors)
+2. [Pull Request](https://github.com/franco-ortega/glowing-colors/commit/76ebc13654210f92828617997af4d817d9268698)
+[React Testing Library Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ)
