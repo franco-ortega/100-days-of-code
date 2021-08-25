@@ -347,4 +347,39 @@ Finally, I refactored the two useEffects in the Game component to reduce repetit
 **Link(s) to work**
 1. [Repo](https://github.com/franco-ortega/glowing-colors)
 2. [Pull Request](https://github.com/franco-ortega/glowing-colors/commit/76ebc13654210f92828617997af4d817d9268698)
-[React Testing Library Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ)
+3. [React Testing Library Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ)
+
+
+
+### Day 23: Monday, August 23, 2021
+
+**Project:** Glowing Colors
+
+**Tech:** React, CSS
+
+**Today's Progress:** (5 hrs) Today I brought the project up to speed to where the rough draft version was last week. I still struggled with the timer and animation being out of sync, but after much wrangling and thinking deeper about the issue, I was able to create a solution, and now it's working great!
+
+**Thoughts:** 
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/glowing-colors)
+2. [Pull Request](https://github.com/franco-ortega/glowing-colors/commit/acd84ce52d84d289c637793483db2882f958e157)
+3. [Glowing Colors Website](https://glowing-colors.netlify.app/)
+
+
+
+### Day 24: Tuesday, August 24, 2021
+
+**Project:** Glowing Colors
+
+**Tech:** React, CSS
+
+**Today's Progress:** (2 hrs) I spent an hour adding functionality to have to orbs appear in random locations on the screen. Then, I spent another hour refactoring the "random location" code into a single function that was moved into the utils file, and I refactored the other utils functions too.
+
+**Thoughts:** It felt great to get the site working even more how I envisioned. It was really nice being able to clean up the code and trim it down while making it more readable too.
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/glowing-colors)
+2. [Pull Request #1](https://github.com/franco-ortega/glowing-colors/commit/38ead2abca07164843bd6d37ba6aa5d2d0d43190)
+3. [Pull Request #2](https://github.com/franco-ortega/glowing-colors/commit/565737c07295ddddd9b5b8b6946e8386e102dfe3)
+4. [Glowing Colors Website](https://glowing-colors.netlify.app/)
