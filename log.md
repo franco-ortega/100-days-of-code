@@ -367,7 +367,6 @@ Finally, I refactored the two useEffects in the Game component to reduce repetit
 3. [Glowing Colors Website](https://glowing-colors.netlify.app/)
 
 
-
 ### Day 24: Tuesday, August 24, 2021
 
 **Project:** Glowing Colors
@@ -383,3 +382,19 @@ Finally, I refactored the two useEffects in the Game component to reduce repetit
 2. [Pull Request #1](https://github.com/franco-ortega/glowing-colors/commit/38ead2abca07164843bd6d37ba6aa5d2d0d43190)
 3. [Pull Request #2](https://github.com/franco-ortega/glowing-colors/commit/565737c07295ddddd9b5b8b6946e8386e102dfe3)
 4. [Glowing Colors Website](https://glowing-colors.netlify.app/)
+
+
+### Day 25: Wedsday, August 25, 2021
+
+**Project:** Glowing Colors
+
+**Tech:** React, CSS
+
+**Today's Progress:** (1 hr) The height and width of the orbs are now created dynamically and randomly each time an orb is rendered, so every orb is a different size. Also, I added tests for some of the functions from yesterday's refactor.
+
+**Thoughts:** The dynamic styling is being added each Orb component via inline styling as it is created. I wasn't sure how to input the height and width in this manner while also maintaining a responsive design. The orbs had a height/width of 75px on mobile and 100px on larger screens. The dynamic height/width has a range between 0px and 200px, but I didn't want the orbs to get that big on mobile screens. Luckily, I was able to utilize the the max-height and max-width properties, which I only recently got more familiar with, in the CSS module for the Orb component, and that successfully capped the height/width of the orbs on mobile.
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/glowing-colors)
+2. [Pull Request](https://github.com/franco-ortega/glowing-colors/commit/0965f0484c0cd02ca7445da3a144a2714aaabaa3)
+3. [Glowing Colors Website](https://glowing-colors.netlify.app/)
