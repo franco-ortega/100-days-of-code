@@ -384,7 +384,7 @@ Finally, I refactored the two useEffects in the Game component to reduce repetit
 4. [Glowing Colors Website](https://glowing-colors.netlify.app/)
 
 
-### Day 25: Wedsday, August 25, 2021
+### Day 25: Wednesday, August 25, 2021
 
 **Project:** Glowing Colors
 
@@ -397,4 +397,45 @@ Finally, I refactored the two useEffects in the Game component to reduce repetit
 **Link(s) to work**
 1. [Repo](https://github.com/franco-ortega/glowing-colors)
 2. [Pull Request](https://github.com/franco-ortega/glowing-colors/commit/0965f0484c0cd02ca7445da3a144a2714aaabaa3)
+3. [Glowing Colors Website](https://glowing-colors.netlify.app/)
+
+
+### Day 26: Thursday, August 26, 2021
+
+**Project:** CSS Sandbox
+
+**Tech:** React, CSS
+
+**Today's Progress:** (1 hr) I watched a video tutorial that did a great job of explaining hsl color codes. Also, it demonstrated the benefit of using CSS variables for the different parts of the color code. I highly recommend checking it out: [hsl tutorial](https://www.youtube.com/watch?v=EJtmfkKulNA&list=PLZlA0Gpn_vH8mpXIUHjWoMAAgoCEinL0R&index=7&ab_channel=WebDevSimplified)
+
+**Thoughts:** I have mostly used the named color codes (i.e. green, red, etc) for my styling, and more recently, I've been utilizing rgb values to be able to adjust the opacity of the color as well. I didn't have much of an understanding of hsl, but now it makes much more sense to me. Also, I really like the flexibility that incorporating CSS variables adds to the use of hsl. Though, I don't have any particular use cases in mind for this yet.
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/css-sandbox)
+2. [Pull Request](https://github.com/franco-ortega/css-sandbox/commit/4c3d51f8c7c3cdb05d2d221ee58789152533a2d7)
+
+
+### Day 27: Friday, August 27, 2021
+
+**Project:** Glowing Colors
+
+**Tech:** React, CSS
+
+**Today's Progress:** (1 hr) The orbs are now clickable. Their styles change and transition with every click.
+
+**Thoughts:** This feature was easier to implement than I expected, but it was also tricky to get it working properly. First, I created a new class with the transition. Next, I added the class as a second inline style to the orb, which was dependent on a new piece of state - a boolean that began as false. When the orb was clicked, the boolean was set to true, and that did a couple things:
+
+1. It applied the new class name to the orb.
+2. the change of state caused the orb to be re-rendered, or at least it causes the function that generates the dynamic stlying to re-run, and either way, this generated a new set of styling with the creation of new orb.
+
+This worked well, and the newly generated styles were applied smoothly thanks to the transition. This allowed the styles on an orb to be changed once with a click. Then, I updated the function that changed the boolean to set it to the opposite of its previous value. This allowed a new style to be generated for an orb every time it was clicked. However, this also caused a couple issues:
+
+1. Whenever the boolean was clicked back to false, this removed the class with the transition, so the orb changed suddenly and sharply instead of smoothly; I was able to rectify this by adding a transition to the original (and constant) class name for the orb, but this led to another issue.
+2. Everyonce in a while, the orbs would transition as soon as they were rendered. I don't understand why this happened, or why it only happened occasionally, or why only some of the orbs of a single collection would behave this way (as opposed to all of them).
+
+It took a bunch of troubleshooting and experimenting, but I discovered a solution. I created a second piece of state, which was also a boolean. This allowed me to split up the actions. One boolean was used to apply the new class name with the transition, so it began as false and was changed to true on click. The other boolean was set to change to the opposite value (i.e. setState(!boolean) ), so every time it was clicked, the orb re-rendered, but it still had the new class name with the transition. Success!
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/glowing-colors)
+2. [Pull Request](https://github.com/franco-ortega/glowing-colors/commit/51f2ec5bc2c4466b9d07b01b411ab7ede5b375bf)
 3. [Glowing Colors Website](https://glowing-colors.netlify.app/)
