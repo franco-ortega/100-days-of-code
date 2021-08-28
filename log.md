@@ -406,14 +406,15 @@ Finally, I refactored the two useEffects in the Game component to reduce repetit
 
 **Tech:** React, CSS
 
-**Today's Progress:** (1 hr) I watched a video tutorial that did a great job of explaining hsl color codes. Also, it demonstrated the benefit of using CSS variables for the different parts of the color code. I highly recommend checking it out: [hsl tutorial](https://www.youtube.com/watch?v=EJtmfkKulNA&list=PLZlA0Gpn_vH8mpXIUHjWoMAAgoCEinL0R&index=7&ab_channel=WebDevSimplified)
+**Today's Progress:** (1 hr) I watched a video tutorial that did a great job of explaining hsl color codes. Also, it demonstrated the benefit of using CSS variables for the different parts of the color code. I highly recommend checking it out: [hsl tutorial](https://www.youtube.com/watch?v=EJtmfkKulNA&list=PLZlA0Gpn_vH8mpXIUHjWoMAAgoCEinL0R&index=7&ab_channel=WebDevSimplified). Also, before doing this, I cleaned up one of the older files, and then added a Nav component 
 
-**Thoughts:** I have mostly used the named color codes (i.e. green, red, etc) for my styling, and more recently, I've been utilizing rgb values to be able to adjust the opacity of the color as well. I didn't have much of an understanding of hsl, but now it makes much more sense to me. Also, I really like the flexibility that incorporating CSS variables adds to the use of hsl. Though, I don't have any particular use cases in mind for this yet.
+**Thoughts:** I have mostly used the named color codes (i.e. green, red, etc) for my styling, and more recently, I've been utilizing rgb values to be able to adjust the opacity of the color as well. I didn't have much of an understanding of hsl, but now it makes much more sense to me. Also, I really like the flexibility that incorporating CSS variables adds to the use of hsl. Though, I don't have any particular use cases in mind for this yet. Also, I made this site several months as a way to experiment and play with new CSS properties. I had previously mostly just used it to learn grid, and I also dabbled a bit with making shapes like triangles.
 
 **Link(s) to work**
 1. [Repo](https://github.com/franco-ortega/css-sandbox)
-2. [Pull Request](https://github.com/franco-ortega/css-sandbox/commit/4c3d51f8c7c3cdb05d2d221ee58789152533a2d7)
-
+2. [Pull Request #1](https://github.com/franco-ortega/css-sandbox/commit/e0317294b698617b542d361369f855278526989c)
+2. [Pull Request #2 - Nav](https://github.com/franco-ortega/css-sandbox/commit/4c3d51f8c7c3cdb05d2d221ee58789152533a2d7)
+3. [Pull Request #3 - hsl](https://github.com/franco-ortega/css-sandbox/commit/19494766b37302608de7299fc0b4ce55128043b1)
 
 ### Day 27: Friday, August 27, 2021
 
