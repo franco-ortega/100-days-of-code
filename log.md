@@ -442,3 +442,45 @@ It took a bunch of troubleshooting and experimenting, but I discovered a solutio
 1. [Repo](https://github.com/franco-ortega/glowing-colors)
 2. [Pull Request](https://github.com/franco-ortega/glowing-colors/commit/51f2ec5bc2c4466b9d07b01b411ab7ede5b375bf)
 3. [Glowing Colors Website](https://glowing-colors.netlify.app/)
+
+
+### Day 28: Saturday, August 28, 2021
+
+**Project:** n/a
+
+**Tech:** n/a
+
+**Today's Progress:** A day of rest.
+
+**Thoughts:** n/a
+
+
+### Day 29: Sunday, August 29, 2021
+
+**Project:** Glowing Colors
+
+**Tech:** React, CSS
+
+**Today's Progress:** Did some planning for adding a Welcome component that will provide instructions to the user.
+
+**Thoughts:** At first I was thinking of creating a landing page that would link to the page with the glowing color orbs. However, I then decided to make it a component that would be visible on load - like a landing page - but when the user clicks on the button to proceed, the Welcome component fades out of view and is un-rendered.
+
+
+### Day 30: Monday, August 30, 2021
+
+**Project:** Glowing Colors
+
+**Tech:** React, CSS
+
+**Today's Progress:** (1+ hr) I built the first phase of the Welcome component.
+
+**Thoughts:** This first phase includes the bulk of the content and styling. I placed the component in the center of the screen by using *position: relative* with a *top* and *left* values of 50% combined with *transform: translate(-50%, -50%)*. Also, I am making this component responsive without the use of media queries by using the *clamp* function with relative lengths for the font-sizes and providing the component a width of fit-content to stretch to fit the text, plus a max-width of 80% to prevent it from touching the sides of the screen on smaller screens.
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/glowing-colors)
+1. [Commit #1 - test for Welcome component](https://github.com/franco-ortega/glowing-colors/commit/0ce17cd9be8f08ab255c52883f59cf4acd9a1d3f)
+1. [Commit #2 - initial Welcome component](https://github.com/franco-ortega/glowing-colors/commit/51b16750d3c8061cc38ea30ec9ed08d288964f30)
+1. [Commit #3 - initial styling for Welcome component](https://github.com/franco-ortega/glowing-colors/commit/3b34f6ad3f21025700051c473e5f132a139c09d6)
+1. [Commit #4 - added content and styling for Welcom Component](https://github.com/franco-ortega/glowing-colors/commit/fabbddb15d8ed54b0f110af3b9a9469521aac4e9)
+1. [Glowing Colors Website](https://glowing-colors.netlify.app/)
+1. [Clamp function](https://developer.mozilla.org/en-US/docs/Web/CSS/clamp())
