@@ -484,3 +484,21 @@ It took a bunch of troubleshooting and experimenting, but I discovered a solutio
 1. [Commit #4 - added content and styling for Welcom Component](https://github.com/franco-ortega/glowing-colors/commit/fabbddb15d8ed54b0f110af3b9a9469521aac4e9)
 1. [Glowing Colors Website](https://glowing-colors.netlify.app/)
 1. [Clamp function](https://developer.mozilla.org/en-US/docs/Web/CSS/clamp())
+
+
+### Day 31: Tuesday, August 31, 2021
+
+**Project:** Todo List App
+
+**Tech:** React, CSS
+
+**Today's Progress:** (5 hr) I spent today refreshing myself on class components in React, which I haven't used in about 6 months. When the user submits a todo, it is immediately displayed on the screen along with a button that will delete all the todos. Additionally, every time a todo is added, the entire list of todos is placed in local storage. When the page is reloaded, the todo list is retrieved from local storage. Finally, when the Delete button is clicked, the todo list is removed from the page and local storage.
+
+Also, I spent some time trying out the CSS functions clamp, min, and max.
+
+**Thoughts:** 
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/demo-react-01-todos)
+1. Pull Request](https://github.com/franco-ortega/demo-react-01-todos/commit/c683fdf320c96350bc66e38d9762c2d3bf88892d)
+1. [Website](https://a-list-of-todos.netlify.app)
