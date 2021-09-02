@@ -502,3 +502,5 @@ Also, I spent some time trying out the CSS functions clamp, min, and max.
 1. [Repo](https://github.com/franco-ortega/demo-react-01-todos)
 1. [Pull Request](https://github.com/franco-ortega/demo-react-01-todos/commit/c683fdf320c96350bc66e38d9762c2d3bf88892d)
 1. [Website](https://a-list-of-todos.netlify.app)
+
+See log2 for entries for the next entries.
