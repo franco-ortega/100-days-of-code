@@ -83,3 +83,20 @@ Also, I tried adding a color gradient on the text, which looked really nice. How
 1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
 1. [Pull Request #1 - Prologue component](https://github.com/franco-ortega/ts-02-storybook/commit/45d24ecb55953ea8fddc88204095b56c5cac672c)
 1. [Pull Request #2 - Chapters component](https://github.com/franco-ortega/ts-02-storybook/commit/4dd5ebd4a2eb6fd0895bd2ab33d941a1e93cbfe4)
+
+
+---
+### Day 38: Tueday, September 7, 2021
+
+**Project:** Storybook
+
+**Tech:** React, TypeScript, CSS
+
+**Today's Progress:** (3 hrs) I begin working a dynamic route linked to a reusable component that will receive props from a data file in order to generate most of the pages for this app.
+
+**Thoughts:** I vaguely remember creating a dynamic route for a school project over 6 months ago. It was part of an app that fetched fictional character data (LotR) from an API. The title of each character was displayed on the page as a link. Clicking on a character link took the user to a page that displayed details of that particular character. A reusuable component was used to generate all the character details pages. So, the work today was not totally knew to me. I had done this sort of work at least once in the past (and probably more like a few times), but my memory was really fuzzy on it, and I had never done this with TypeScript before, so that made it extra tricky, but I seemed to get things most of the way there today.
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
+1. [Pull Request](https://github.com/franco-ortega/ts-02-storybook/pull/2)
+1. [Website](https://tell-your-tale.netlify.app/)
