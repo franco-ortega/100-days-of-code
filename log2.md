@@ -134,3 +134,18 @@ I attended TechCrawl 2021. I did attend the virtual version last year, but this 
 
 1. [TechCrawl](https://www.techcrawl.org/2021-techcrawl)
 1. [Alchemy Code Lab](https://www.alchemycodelab.com/)
+
+
+---
+### Day 41: Friday, September 10, 2021
+
+
+**Project:** n/a
+
+**Tech:** n/a
+
+**Today's Progress:** A day of rest.
+
+**Thoughts:** Breaks are important.
+
+
