@@ -151,6 +151,27 @@ I attended TechCrawl 2021. I did attend the virtual version last year, but this 
 [LTX Quest](https://ltxconnect.org/quest/)
 
 
+
+---
+### Day 42: Saturday, September 11, 2021
+
+**Project:** Take-Home Project
+
+**Tech:** Redis, webhooks
+
+**Today's Progress:** I spent time today researching webhooks and Redis to help me to build a take-home project (fullstack app) from a company I interviewed with earlier this week.
+
+**Thoughts:** Webhooks seem to be a way to help facilitate receiving multiple incoming requests in response to an inital outgoing request. For example, my server had to make a POST request to an external API with a piece of data and a URL. The URL was an endpoint on my server. The external API would send requests to this URL with updates on the data. The response to my inital request was an id number that would represent to piece of data that I just sent out. Then, at a later time, the external API would make several POST requests to the provided URL; those requests would have the id number and an update on the data. POST requests would continue to be sent for each piece of data until work on that particular piece of data was complete.
+
+I guess what makes this different than other standard requests is that the external API doesn't know where to send the data. Because I think usually when you create code to make requests, you include the URL to send the request. But in this instance, the URL is unknown, and it is provided from another source (my server in this instance). Does this mean that my endpoint is the webhook? Or is the external API using a webhook to do this kind of dymanic work?
+
+Also, I wasn't allowed to use a database but had to store the updated data "in memory". I wasn't quite sure what this meant or how to accomplish it, but a friend suggested that I look into Redis, and after doing some research, it seemed like a good solution. I watched a very helpful video tutorial on the YouTube channel of Web Dev Simplified to get me started with Redis (link below).
+
+**Link(s)**
+1. [Redis](https://redis.io/)
+1. [Web Dev Simplified](https://www.youtube.com/watch?v=jgpVdJB2sKQ)
+
+
 ---
 
 Need to write up the logs for Days 42 - 49.
@@ -195,4 +216,3 @@ And this was all CSS work, so it took multiple pull requests to make sure everyt
 1. [Pull Request](https://github.com/franco-ortega/glowing-colors/pull/13)
 1. [Glowing Colors Website](https://glowing-colors.netlify.app)
 1. [Introduction to Web Accessibility WCAG 2.1](https://www.udemy.com/course/introduction-to-web-accessibility-wcag21/)
-
