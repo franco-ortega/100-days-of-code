@@ -139,13 +139,12 @@ I attended TechCrawl 2021. I did attend the virtual version last year, but this 
 ---
 ### Day 41: Friday, September 10, 2021
 
-
-**Project:** n/a
+**Project:** Job Searching / Networking
 
 **Tech:** n/a
 
-**Today's Progress:** A day of rest.
+**Today's Progress:** I attended the third day of LTX Quest - a virtual conference for Latinx professionals, and this included listening to speakers, connecting with other attendees on LinkedIn, and having virtual chats with employers.
 
-**Thoughts:** Breaks are important.
+**Thoughts:** It was really nice hearing speakers talk about a variety of topics, and the entertainment was super fun. I watched a drag king performance for the first time.
 
-
+[LTX Quest](https://ltxconnect.org/quest/)
