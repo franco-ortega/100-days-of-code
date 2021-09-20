@@ -177,3 +177,22 @@ And this was all CSS work, so it took multiple pull requests to make sure everyt
 1. [Pull Request #2 - add media query](https://github.com/franco-ortega/glowing-colors/pull/10)
 1. [Pull Request #3 - adjust font size](https://github.com/franco-ortega/glowing-colors/pull/11)
 1. [Website](https://glowing-colors.netlify.app)
+
+---
+
+### Day 51: Monday, September 20, 2021
+
+**Project:** Glowing Colors
+
+**Tech:** React, CSS
+
+**Today's Progress:** I added a button that allows the user to "go back" to the "home page" by removing the orbs and rendering the Welcome component.
+
+**Thoughts:** Previously, once the orbs began rendering, there was no way to stop the process from continuing without end or to return to the Welcome component that serves as a landing page to greet the user. So, I added a button in the upper righthand corner that does both of these things, and I added instructions to click in that area to return to the "home page". This **Go Back** button has an opacity of 0% to keep it invisible to the user under most conditions. However, when the user hovers over the button, or when the button receives focus, the opacity becomes 100% to make it visible. I recently took a course about web accessibility on Udemy, and I learned that it is helpful to have the same styling for focus and hover. This allows users who navigate with a mouse and users who navigate with a keyboard to have the same experience and same acesss to functionality.
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/glowing-colors)
+1. [Pull Request](https://github.com/franco-ortega/glowing-colors/pull/13)
+1. [Glowing Colors Website](https://glowing-colors.netlify.app)
+1. [Introduction to Web Accessibility WCAG 2.1](https://www.udemy.com/course/introduction-to-web-accessibility-wcag21/)
+
