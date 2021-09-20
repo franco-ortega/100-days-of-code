@@ -157,7 +157,7 @@ Need to write up the logs for Days 42 - 49.
 
 ---
 
-### Day 50: Friday, September 19, 2021
+### Day 50: Sunday, September 19, 2021
 
 **Project:** Glowing Colors
 
