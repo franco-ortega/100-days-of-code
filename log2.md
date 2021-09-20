@@ -147,4 +147,33 @@ I attended TechCrawl 2021. I did attend the virtual version last year, but this 
 
 **Thoughts:** It was really nice hearing speakers talk about a variety of topics, and the entertainment was super fun. I watched a drag king performance for the first time.
 
+**Link(s)**
 [LTX Quest](https://ltxconnect.org/quest/)
+
+
+---
+
+Need to write up the logs for Days 42 - 49.
+
+---
+
+### Day 50: Friday, September 19, 2021
+
+**Project:** Glowing Colors
+
+**Tech:** React, CSS
+
+**Today's Progress:** I made some adjustments to the text color, font size, and media queries.
+
+**Thoughts:** The text color gradient that I added previously to the Welcome component did not work on mobile, but I still wanted to have some color with the text. I tried adding a background with a colorful gradient, but it felt like too much color. In the end, I kept the original dark backgound and chose a soft, light blue-purple shade that suited it. Also, since the Welcome component took up nearly the entire screen on mobile, I removed the background entirely from the mobile version. I still like how the dark background looks on larger screens. It gives the text an island to sit on. Whereas on mobile view, it felt too cluttered to have that island try to squeeze into a space barely bigger than it.
+
+There was only one media queries before. This is a mobile first design, and the one media query was for screens that have a min-width of 500px. This was not sufficient to make the site look proper responsive of tablet and desktop screens, so I added another media query for screens with a min-width of 900px. Also, I increased the middle setting of the clamp for font size while decreasing the max value. Now the text is bigger and more readable on tablet size, but not too big on desktop.
+
+And this was all CSS work, so it took multiple pull requests to make sure everything was looking as expected on mobile. You know how it goes.
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/glowing-colors)
+1. [Pull Request #1 - change text color](https://github.com/franco-ortega/glowing-colors/pull/9)
+1. [Pull Request #2 - add media query](https://github.com/franco-ortega/glowing-colors/pull/10)
+1. [Pull Request #3 - adjust font size](https://github.com/franco-ortega/glowing-colors/pull/11)
+1. [Website](https://glowing-colors.netlify.app)
