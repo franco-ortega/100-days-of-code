@@ -151,13 +151,12 @@ I attended TechCrawl 2021. I did attend the virtual version last year, but this 
 [LTX Quest](https://ltxconnect.org/quest/)
 
 
-
 ---
 ### Day 42: Saturday, September 11, 2021
 
-**Project:** Take-Home Project
+**Project:** Take-Home Project (Fullstack app)
 
-**Tech:** Redis, webhooks
+**Tech:** React, Node, Redis, webhooks
 
 **Today's Progress:** I spent time today researching webhooks and Redis to help me to build a take-home project (fullstack app) from a company I interviewed with earlier this week.
 
@@ -168,9 +167,32 @@ I guess what makes this different than other standard requests is that the exter
 Also, I wasn't allowed to use a database but had to store the updated data "in memory". I wasn't quite sure what this meant or how to accomplish it, but a friend suggested that I look into Redis, and after doing some research, it seemed like a good solution. I watched a very helpful video tutorial on the YouTube channel of Web Dev Simplified to get me started with Redis (link below).
 
 **Link(s)**
+Because this is a take-home project for an interview, I am not allowed to post the code online, but here are links to resources that I used to build it:
 1. [Redis](https://redis.io/)
 1. [Web Dev Simplified](https://www.youtube.com/watch?v=jgpVdJB2sKQ)
 
+
+---
+### Day 43: Saturday, September 12, 2021
+
+**Project:** Take-Home Project (Fullstack app)
+
+**Tech:** React, Node, Express, Redis, webhooks
+
+**Today's Progress:** I began this project on the server side. I used Node, which was required, and paired it with Express to build the API. I provided a GET route for my client (website) to access the initial version of the data held by my server; the reponse was a formatted version of the raw data.
+
+Then, I built my client using React. It needed to display the data received from the first GET route. It would later need to update the display with data from the second endpoint.
+
+The second endpoint was a GET route that prompted my server to begin processing the data; the processing was done by making a POST request to a 3rd-party API for each piece of data. Each response from the 3rd-party API responded was an id number for that particular piece of data, and my server responded to my client with an updated version of the formatted data that now included the id numbers.
+
+The third endpoint was a POST route for the 3rd-party API to send me the status of each piece: process began, process continues, process completed. Each status was sent separately and at a different time. Each time a new status was received, I had to update the status in the formatted data on my server. However, I was not able to use a database, so this was where Redis would help. It could store the data locally.
+
+**Thoughts:** I was able to get the first endpoint and the client working properly together to display the initial data. I had a tougher time with the second and third endpoints because it wasn't as straightforward as it may sound, but I'll discuss that tomorrow.
+
+**Link(s)**
+Because this is a take-home project for an interview, I am not allowed to post the code online, but here are links to resources that I used to build it:
+1. [Redis](https://redis.io/)
+1. [Web Dev Simplified](https://www.youtube.com/watch?v=jgpVdJB2sKQ)
 
 ---
 
