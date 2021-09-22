@@ -216,3 +216,46 @@ And this was all CSS work, so it took multiple pull requests to make sure everyt
 1. [Pull Request](https://github.com/franco-ortega/glowing-colors/pull/13)
 1. [Glowing Colors Website](https://glowing-colors.netlify.app)
 1. [Introduction to Web Accessibility WCAG 2.1](https://www.udemy.com/course/introduction-to-web-accessibility-wcag21/)
+---
+
+### Day 52: Tuesday, September 21, 2021
+
+**Project:** Storybook
+
+**Tech:** React, TypeScript
+
+**Today's Progress:** I started building a custom hook to help deactivate chapters that have already been read/written by the user.
+
+**Thoughts:** When the Chapters component first loads, it displays each chapter as a link. When the user clicks on a chapter, goes to the page (ChapterDetails dynamic/reusuable component - direct child of Chapters component) that displays the info for that chapter, and then makes their choice, they are re-directed to the Chapters component. At that point, the chapter which was completed (and all other completed chapters) should be disabled. Today's work was the start of that effort.
+
+I created a custom hook that returns a piece of state called "completed" (boolean) and a function that changes the value of "completed". The idea is that the boolean begins as false, and when the user completes a chapter, the boolean is changed to true, and this disables access to that chapter. This seemed like an easy thing to implement in my head, but once I started working on it, I realized that it was more complicated than I expected.
+
+I started out by calling the custom hook boolean and function in the ChapterDetails component, but then, I realized that the Chapter parent component needed access to the boolean for every chapter in order to disable the completed chapters.
+
+I took some time to draw out what this may look like as a diagram. Tomorrow I may create a new piece of state (perhaps an array or object) that keeps track of which chapters are completed. Originally, I thought that I could add the boolean to the piece of state (userData) that keeps track of the user's choices from each chapter (one per chapter), but this piece of state is an array, and the items in it will oftentimes have a different order than the chapter order. For example, if the chapters are:
+
+Forest, Mountain, Swamp, Desert
+
+The player may visit them in this order:
+
+Mountain, Desert, Forest, Swamp
+
+In that instance, the items would be placed in the userData array in that order, which would allow the final component to displace the user choices in the proper order (the order that they were selected): Mountain choice, Desert choice, Forest choice, Swamp choice.
+
+However, the chapters array would remain in the original order, and the booleans linked to each chapter would have to be in that order too. As the user visited the chapters in the above order, it could look like this:
+
+Forest: false, Mountain: false, Swamp: false, Desert: false
+Forest: false, Mountain: true, Swamp: false, Desert: false
+Forest: false, Mountain: true, Swamp: false, Desert: true
+Forest: true, Mountain: true, Swamp: false, Desert: true
+Forest: true, Mountain: true, Swamp: true, Desert: true
+
+Anyway, long story short (too late), the userData array would oftentimes be in a different order than the chapters array, and the completed array would have to be in the same order as the chapters in order for them to line up properly.
+
+So I guess the real long story short is that I still need to do more planning for this next step of disabling chapters as they are completed. Looking forward to the challenge!
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
+1. [Commit #1 - create custom hook](https://github.com/franco-ortega/ts-02-storybook/commit/5f4e8445b5cea8140fa357640eeb96348fb2c655)
+1. [Commit #2 - implement custom hook](https://github.com/franco-ortega/ts-02-storybook/commit/c7dd9e6e96f32192bce7b5de84c6bedcab7a3d0c)
+1. [Storybook Website](https://tell-your-tale.netlify.app/)
