@@ -128,6 +128,7 @@ AllChapterInfo was set as the type for the variable that held the array of objec
 1. [Website](https://tell-your-tale.netlify.app/)
 
 ---
+
 ### Day 40: Thursday, September 9, 2021
 
 I attended TechCrawl 2021. I did attend the virtual version last year, but this time it was my first in-person tech event. There were about 10 booths, and I spoke to employers or recruiters at most of them. Also, I saw a bunch of people from the code school that I attended (Alchemy Code Lab). This include fellow students from my cohort, but I also saw people from past cohorts and the newer cohorts - all of whom I hadn't seen in person before, so that was rad.
@@ -137,6 +138,7 @@ I attended TechCrawl 2021. I did attend the virtual version last year, but this 
 
 
 ---
+
 ### Day 41: Friday, September 10, 2021
 
 **Project:** Job Searching / Networking
@@ -173,7 +175,8 @@ Because this is a take-home project for an interview, I am not allowed to post t
 
 
 ---
-### Day 43: Saturday, September 12, 2021
+
+### Day 43: Sunday, September 12, 2021
 
 **Project:** Take-Home Project (Fullstack app)
 
@@ -193,6 +196,25 @@ The third endpoint was a POST route for the 3rd-party API to send me the status 
 Because this is a take-home project for an interview, I am not allowed to post the code online, but here are links to resources that I used to build it:
 1. [Redis](https://redis.io/)
 1. [Web Dev Simplified](https://www.youtube.com/watch?v=jgpVdJB2sKQ)
+
+---
+---
+
+### Day 44: Monday, September 13, 2021
+
+**Project:** Take-Home Project (Fullstack app)
+
+**Tech:** React, Node, Express, Redis, webhooks
+
+**Today's Progress:** I created the logic that allowed the server to process data in a very specific way outlined in the requirement. There were 9 pieces of data that had to be sent to an external API for processing, and the processing of each piece of data resulted in  multiple incoming requests to my server. However, I could not send all 9 pieces of data together or immediately consecutively. I could only send 3 pieces of data to start, and when 1 piece was completed, then I could send out the next one.
+
+**Thoughts:** I tried building the logic to handle all this complexity right from the start. However, the combination of multiple loops and conditional statments wound up being too much to track all at once off the bat. I scrapped this effort and restarted with a simpler approach. First, I desgined the server to process only the first piece of data. Then, when that was working, I added loops so it would process every piece of data right away. After that was completed, I finally added the conditional statments to check if a piece of data had been completed, and if so, to send out the next piece of data.
+
+Everything appeared to be working properly except for one piece of data that never completed processing. I would later find out that there was a bug for this piece of data in the external API. It must have been intentionally placed there as a test. I hadn't considered that a take-home project would provide me with broken code, but I can understand why that was done, and now I know to look for such things in the future.
+
+**Link(s)**
+Because this is a take-home project for an interview, I am not allowed to post the code online.
+
 
 ---
 
