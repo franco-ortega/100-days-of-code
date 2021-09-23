@@ -196,7 +196,7 @@ Because this is a take-home project for an interview, I am not allowed to post t
 
 ---
 
-Need to write up the logs for Days 42 - 49.
+Need to write up the logs for Days 44 - 49.
 
 ---
 
@@ -238,6 +238,7 @@ And this was all CSS work, so it took multiple pull requests to make sure everyt
 1. [Pull Request](https://github.com/franco-ortega/glowing-colors/pull/13)
 1. [Glowing Colors Website](https://glowing-colors.netlify.app)
 1. [Introduction to Web Accessibility WCAG 2.1](https://www.udemy.com/course/introduction-to-web-accessibility-wcag21/)
+
 ---
 
 ### Day 52: Tuesday, September 21, 2021
@@ -280,4 +281,23 @@ So I guess the real long story short is that I still need to do more planning fo
 1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
 1. [Commit #1 - create custom hook](https://github.com/franco-ortega/ts-02-storybook/commit/5f4e8445b5cea8140fa357640eeb96348fb2c655)
 1. [Commit #2 - implement custom hook](https://github.com/franco-ortega/ts-02-storybook/commit/c7dd9e6e96f32192bce7b5de84c6bedcab7a3d0c)
+1. [Storybook Website](https://tell-your-tale.netlify.app/)
+
+---
+
+### Day 53: Wednesday, September 22, 2021
+
+**Project:** Storybook
+
+**Tech:** React, TypeScript
+
+**Today's Progress:** (2 hrs) I created the Story component. The user will be redirected here when they have selected enough choices to complete their story, and the completed story will be displayed on this page.
+
+**Thoughts:** Much of this session was actually spent trying to disable individual chapters after the user makes their selection from the respective chapter. I know how to do this with JavaScript and React, but I kept getting errors from TypeScipt. I tried a few different options, and I seemed to have the most success with using the useState hook to create an object (completed) that could take in any amount of properties that were added dynamically, but I couldn't get the setter function (setCompleted) to work without TypeScript errors. The error said something like that it wasn't allowed to return the type "void" for something that had the property [key: boolean], and when I tried returning that propety, it said something like Object<validtor> wasn't valid.
+
+Anyway, after close to 90 min of trying and failing to make TypeScript happy, I decided to put this on the backburner and move on to the next step. Which was creating the Story component to display the completed story. I was able to do this relatively quickly, and in doing so, I successfully used the reduce method for the first time. Each piece of the story was an string in an array, and at first, I used the map method to place each piece into an p-tag and then display those elements on the screen. But then, with the reduce method, I was able to concatenate all the pieces into a single string and display it in a single p-tag. Instead of having a p-tag for each piece.
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
+1. [Pull request](https://github.com/franco-ortega/ts-02-storybook/pull/5)
 1. [Storybook Website](https://tell-your-tale.netlify.app/)
