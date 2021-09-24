@@ -197,7 +197,7 @@ Because this is a take-home project for an interview, I am not allowed to post t
 1. [Redis](https://redis.io/)
 1. [Web Dev Simplified](https://www.youtube.com/watch?v=jgpVdJB2sKQ)
 
----
+
 ---
 
 ### Day 44: Monday, September 13, 2021
@@ -218,7 +218,25 @@ Because this is a take-home project for an interview, I am not allowed to post t
 
 ---
 
-Need to write up the logs for Days 44 - 49.
+### Day 45: Tuesday, September 14, 2021
+
+**Project:** Cover letters and Promises
+
+**Tech:** GoogleDocs and VSCode
+
+**Today's Progress:** I spent the morning working on cover letter templates for applying to fullstack positions, frontend positions, fullstack positions that use React, and frontend React positions. Then in the evening, I watched a video tutorial on Promises.
+
+**Thoughts:** The cover letter work took several hours and used up a day of job searching, but it will help me be more efficient going forward when applying to jobs. I will be able to use the template as a framework and then weave in details that pertain to the particular job and company. I already had a one cover letter template with different options for different positions, and sometimes even different options for the same kind of position. All this grew cumbersome over time and required me to sort through the many options each time I needed a new cover letter. Now all the options have been trimmed down and sorted, so I don't have to piece together all the parts anymore. I just need to add the details for each particular job and company.
+
+As for Promises, I had used Promise.all and Promise.resolve before, but that was over 6 months ago. Also, I had never created a Promise using the "new" keyword before. I came across a video tutorial by Web Dev Simplified that helped refresh my memory and teach me new aspects of Promises too.
+
+**Link(s)**
+[Web Dev Simplied - Promises](https://www.youtube.com/watch?v=DHvZLI7Db8E)
+
+
+---
+
+Need to write up the logs for Days 46 - 49.
 
 ---
 
