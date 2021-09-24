@@ -231,7 +231,7 @@ Because this is a take-home project for an interview, I am not allowed to post t
 As for Promises, I had used Promise.all and Promise.resolve before, but that was over 6 months ago. Also, I had never created a Promise using the "new" keyword before. I came across a video tutorial by Web Dev Simplified that helped refresh my memory and teach me new aspects of Promises too.
 
 **Link(s)**
-[Web Dev Simplied - Promises](https://www.youtube.com/watch?v=DHvZLI7Db8E)
+1. [Web Dev Simplied - Promises](https://www.youtube.com/watch?v=DHvZLI7Db8E)
 
 
 ---
@@ -323,6 +323,7 @@ So I guess the real long story short is that I still need to do more planning fo
 1. [Commit #2 - implement custom hook](https://github.com/franco-ortega/ts-02-storybook/commit/c7dd9e6e96f32192bce7b5de84c6bedcab7a3d0c)
 1. [Storybook Website](https://tell-your-tale.netlify.app/)
 
+
 ---
 
 ### Day 53: Wednesday, September 22, 2021
@@ -341,3 +342,20 @@ Anyway, after close to 90 min of trying and failing to make TypeScript happy, I 
 1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
 1. [Pull request](https://github.com/franco-ortega/ts-02-storybook/pull/5)
 1. [Storybook Website](https://tell-your-tale.netlify.app/)
+
+
+---
+
+### Day 54: Thursday, September 23, 2021
+
+**Project:** MEAN Todo App
+
+**Tech:** MongoDB, Express, Angular, Node
+
+**Today's Progress:** (1 hr) I started making a Todo app with the MEAN stack. Today I built the API and database for the server and then started to create the client.
+
+**Thoughts:** My stack is the PERN stack (PostgreSQL, Express, React, Node). I am currently taking a Udemy course to learn more about Node (see link below), and the final part of this course is to build a Todo app using the MEAN stack. I have seen a tiny bit of Angular and Mongo but have never worked with them, so it was neat to finally try them out. Also, this course is at least a few years old, so some of it is outdated. The course used MLab for the Mongo database, but Mlab no longer accepts new users, so I had to sign up straight with MongoDB. The process was different than what was outlined in the course. Also, some of the Angular code used in the course is now deprecated. However, in both instances, I was able to figure out how to do all this in the current way, so that felt good. Sure helps me feel more like a professional. :)
+
+
+**Link(s) to work**
+1. [Learn and Understand NodeJS](https://www.udemy.com/course/understand-nodejs/)
