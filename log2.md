@@ -154,6 +154,7 @@ I attended TechCrawl 2021. I did attend the virtual version last year, but this 
 
 
 ---
+
 ### Day 42: Saturday, September 11, 2021
 
 **Project:** Take-Home Project (Fullstack app)
@@ -236,7 +237,23 @@ As for Promises, I had used Promise.all and Promise.resolve before, but that was
 
 ---
 
-Need to write up the logs for Days 46 - 49.
+### Day 46: Wednesday, September 15, 2021
+
+**Project:** Accessibility
+
+**Tech:** HTML
+
+**Today's Progress:** I finished the web accessibility course that I stared a few weeks ago. The final portion covered user interfaces like buttons, input, and forms. I coded along with it to practice the techniques.
+
+**Thoughts:** I'd say this was a pretty good beginner course on web accessibility. I was already familiar with some of this material, but I learned new things too - like that it is helpful to provide the same styling to focus and hover effects, so that the same experience is provided to users who use a mouse/touchpad and users who use keyboard navigation. Also, even though I coded along to this portion of the course, I didn't do that with the prior portions, which included the importtance of semantic HTML and skip links. All portions of the course had coding exercises to do afterwards, which involved making changes to sample websites in order to make them more accessible, and I did all of these exercises, but I'd still like to go back and practice those early portions on my own outside of the sample websites.
+
+**Link(s)**
+1. [Introduction to Web Accessibility WCAG 2.1](https://www.udemy.com/course/introduction-to-web-accessibility-wcag21/)
+
+
+---
+
+Need to write up the logs for Days 47 - 49.
 
 ---
 
