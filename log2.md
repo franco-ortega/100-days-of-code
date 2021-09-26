@@ -73,7 +73,7 @@ Also, I tried adding a color gradient on the text, which looked really nice. How
 
 **Project:** Storybook
 
-**Tech:** React, TypeScript, CSS
+**Tech:** React, TypeScript
 
 **Today's Progress:** (~6 hrs) I started building an app where the user will build a story by visiting different lands in any order they wish, and then selecting a sentence from each land. When they have visited all the lands, their completed story will be displayed.
 
@@ -90,7 +90,7 @@ Also, I tried adding a color gradient on the text, which looked really nice. How
 
 **Project:** Storybook
 
-**Tech:** React, TypeScript, CSS
+**Tech:** React, TypeScript
 
 **Today's Progress:** (3 hrs) I begin working a dynamic route linked to a reusable component that will receive props from a data file in order to generate most of the pages for this app.
 
@@ -107,7 +107,7 @@ Also, I tried adding a color gradient on the text, which looked really nice. How
 
 **Project:** Storybook
 
-**Tech:** React, TypeScript, CSS
+**Tech:** React, TypeScript
 
 **Today's Progress:** (3 hrs) I completed work on getting the dynamic route linked up to the reusuable component, which in turn takes in information from a data file via props to dynamically generate most of the pages for this app. If I want to add more pages, I just need to add more information to the data file without needing to touch the dynamic route or reusuable component. Woohoo!
 
@@ -376,3 +376,46 @@ Anyway, after close to 90 min of trying and failing to make TypeScript happy, I 
 
 **Link(s) to work**
 1. [Learn and Understand NodeJS](https://www.udemy.com/course/understand-nodejs/)
+
+
+---
+
+### Day 55: Friday, September 24, 2021
+
+**Project:** Storybook
+
+**Tech:** React, TypeScript
+
+**Today's Progress:** (1 hr) Between yesterday (1 hr) and today, I was able dynamically keep track of the chapters completed by the user in the ChapterDetails component. Then, I adjusted the Story component to work dynamically as well when concatenating each user selection to the final story.
+
+**Thoughts:** I needed a way to keep track of which chapters were completed in order to know which chapters to disable (this work hasn't been done yet. My original efforts to do this with an object earlier this week went down in flames. However, I was able to accomplish it today by changing the userData array. Before, it held a string for the selection made by the user at each chapter. It was an array of strings. Now it is an array of sub-arrays. Each sub-array has the user selection as the first item, and the chapter title as the second item. I will be able to use these chapter titles to disable chapters (as they are completed) in the Chapters component. Progress. Not ideal, but still moving forward.
+
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
+1. [Pull Request #1](https://github.com/franco-ortega/ts-02-storybook/pull/6)
+1. [Pull Request #2](https://github.com/franco-ortega/ts-02-storybook/pull/7)
+1. [Website](https://tell-your-tale.netlify.app/)
+
+
+---
+
+### Day 56: Saturday, September 25, 2021
+
+**Project:** Storybook
+
+**Tech:** React, TypeScript
+
+**Today's Progress:** (1.5 hrs) I finally updated the userData state to be an object!
+
+**Thoughts:** I tried doing this several days ago but couldn't figure out the types to use to make TypeScript happy. I wound up having to scrap at least a couple hours worth of work/debugging that day and revert to a simpler, clunkier approach with an array. My initial plan today was to use the data in that array (in the sub-arrays of the array, to be exact) to disable each chapter after the user visited/completed a chapter. However, I decided to try to changing userData to an object one more time, and this time it worked! It went surprisingly smoothly. I guess getting some time away from it did help. StackOverflow helped a bit too. My biggest challenge today came with making the PropTypes happy with userData as an object instead of array. This is where StackOverflow helped most. The solution wound up being this:
+
+<pre>userData: PropTypes.shape({}).isRequired</pre>
+
+I don't like that the shape is just an object because each key in this object has another object as its value, and those objects have two properties with strings as values. Unfortunately, trying to be more specific with the shape was causing errors, so I'm just going to leave it like this for now.
+
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
+1. [Pull Request](https://github.com/franco-ortega/ts-02-storybook/pull/8)
+1. [Website](https://tell-your-tale.netlify.app/)

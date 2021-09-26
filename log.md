@@ -415,7 +415,7 @@ It took a bunch of troubleshooting and experimenting, but I discovered a solutio
 
 ### Day 28: Saturday, August 28, 2021
 
-**Project:** n/a
+**Project:** Rest
 
 **Tech:** n/a
 
