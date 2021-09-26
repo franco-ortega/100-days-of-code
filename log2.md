@@ -271,7 +271,44 @@ As for the bug, I realized that the reason one piece of data seemed to be proces
 
 ---
 
-Need to write up the logs for Days 48 - 49.
+### Day 48: Friday, September 17, 2021
+
+**Project:** Munge Data
+
+**Tech:** JavaScript
+
+**Today's Progress:** I helped a friend with a project. Their code did work on data received from a fetch request that resulted in an array of objects, and now they were trying to write a test for their code. I was able to help write a test for this code, but it wound up being a long, winding journey to get there.
+
+**Thoughts:** I helped them start by putting the code in a function that could be called in a test file. This refactor went smoothly. However, we had a lot of trouble with setting up a test. It kept timing out, which seemed strange because it didn't seem to be doing a lot of work. However, in addition to returning the update data, their code was also return something that said <45546564 empty objects>, and there were a few of these items with different numbers in them. Eventually, I realized that <45546564 empty objects> was saying that the array had 45,546,564 empty objects in addition to the objects that contained data. No wonder the test kept timing out! It was doing a ton of work!! But why. It must have been something wrong with the code, so I looked closer at it. I hadn't looked too closely at the code before because it sounded like it was working like they expected. However, they hadn't understood what the "empty objects" message meant. Anyway, it look me a little to understand how their code was working, and I was able to spot the problem: they had mixed up the way to add items to an object with the way to change items in an array. They were using bracket notation to add items, which would work as intended for an object, but they were placing these items in an array, and they were doing so by the ID number, which was several numbers long - such as 45546564. The code looked something like this:
+
+<pre>
+const itemArray = []
+
+let id = 0;
+
+id = 45546564
+
+itemArray[id] = { object with munged data }
+
+</pre>
+
+This code would add a single item to an object (if the property didn't exist already), but they were using it on an array, so it placed the item in the 45546564th index of the array and created 45546563 empty items in front of it, so that the new item could be placed in the 45546564th position.
+
+Once I figured this out, it was easy enough to change the itemArray to an object, and then it worked as expected. No more empty items. And the test passed too.
+
+
+---
+
+### Day 49: Saturday, September 18, 2021
+
+**Project:** Assessment
+
+**Tech:** n/a
+
+**Today's Progress:** I took an online assessment from company that I applied to earlier in the week.
+
+**Thoughts:** It went smoothly.
+
 
 ---
 
