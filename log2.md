@@ -251,9 +251,27 @@ As for Promises, I had used Promise.all and Promise.resolve before, but that was
 1. [Introduction to Web Accessibility WCAG 2.1](https://www.udemy.com/course/introduction-to-web-accessibility-wcag21/)
 
 
+
 ---
 
-Need to write up the logs for Days 47 - 49.
+### Day 47: Thursday, September 16, 2021
+
+**Project:** Take-Home Project (Fullstack app)
+
+**Tech:** React, Node, Redis, webhooks
+
+**Today's Progress:** My take-home project was rejected, but I was given the opportunity to make changes. I removed the Redis code that was storing the data (and its updates) in local memory. My new approach to storing the updated data was to use Node to write a file, and it would write to the file again with updates. This worked. Also, I created a work-around to avoid a bug that I discovered in the external API provided by the interviewer. This fix got the project working exactly as expected, so that was exciting!
+
+**Thoughts:** The problem was that the project had to keep the state of the data (and updates to the data) in memory. I couldn't use a database, so I used Redis because that stored data in local memory. This seemed like an appropriate solution, but apparently, in the eyes of the interviewer, Redis counted as a database. 
+
+As for the bug, I realized that the reason one piece of data seemed to be processed strangely (by the external API provided by the interviewer) was because there was a bug in it. I handled this by checking for the behavior caused by the bug and responding in a way that processed the data as expected.
+
+(This will be my last post about this project. I re-submitted, but it was rejected again. They didn't like my new approach to saving the data updates. And apparently, there is some other way to save updated data in Node that I don't know about yet because it turns out that was what they wanted. It would have helped if they made that clear because then I could have researched this approach to implement it. Also, they didn't provide any feedback about the rest of the project. That was disappointing. It would have been nice to know what they thought about the rest of it. Especially since it did work properly. They just didn't like one of my approaches. At least they did make the effort to give me code that was their guesstimate of how they wanted my code to look like, so I'll try updating mye project with their code to see if it still works that way.)
+
+
+---
+
+Need to write up the logs for Days 48 - 49.
 
 ---
 
