@@ -474,3 +474,47 @@ I don't like that the shape is just an object because each key in this object ha
 1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
 1. [Pull Request](https://github.com/franco-ortega/ts-02-storybook/pull/8)
 1. [Website](https://tell-your-tale.netlify.app/)
+
+
+---
+
+### Day 57: Sunday, September 26, 2021
+
+**Project:** Storybook
+
+**Tech:** React, TypeScript
+
+**Today's Progress:** (2 hrs) I was going to work on disabling the completed chapters. However, I realized that by moving all the user selections from an array to an object (that also kept track of which chapters had been completed), this meant that the user selections were no longer displayed in the order that they were selected. Because objects don't keep their properties in any particular order. Therefore, I decided to break up the user selections vs chapters completed into separate data structures. First, I made a new array to hold the user selections. Once that was created and captured the selections correctly, then I worked on redirecting the user to the Story component under the correct condition and properly displayed the user selections, Finally, I updated the "user seletion/chapter completed" object to only hold the "chapter completed" data.
+
+Also, I placed all of the interfaces and types that were used in multiple files into their own utils files, and then exported them where needed.
+
+**Thoughts:** This took longer than I would have expected, but it went relatively smoothly. I had to spend some time thinking how to rewire things, but I didn't get stuck on anything, so that felt great.
+
+Also, I watched a few video tutorials that explained the differences between interfaces vs types, and they helped me understand their differences (capabilities and limitations) much better than the TypeScript docs or StackOverflow threads on the subject. Thank you, YouTubers! See their links below.
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
+1. [Pull Request](https://https://github.com/franco-ortega/ts-02-storybook/pull/9.com/franco-ortega/ts-02-storybook/pull/8)
+1. [Website](https://tell-your-tale.netlify.app/)
+1. [TypeScript Types Vs. Interfaces](https://www.youtube.com/watch?v=bEuXRAr0BVo)
+1. [TypeScript: Interfaces vs Types - Learn in 5 minutes](https://www.youtube.com/watch?v=esWDwiFVqhw)
+1. [TypeScript Interfaces vs Types](https://www.youtube.com/watch?v=crjIq7LEAYw)
+
+
+---
+
+### Day ??: ?day, September ??, 2021
+
+**Project:** 
+
+**Tech:** 
+
+**Today's Progress:** 
+
+**Thoughts:** 
+
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
+1. [Pull Request](https://github.com/franco-ortega/ts-02-storybook/pull/8)
+1. [Website](https://tell-your-tale.netlify.app/)
