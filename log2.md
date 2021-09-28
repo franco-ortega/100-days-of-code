@@ -516,7 +516,8 @@ Also, I watched a few video tutorials that explained the differences between int
 
 **Link(s) to work**
 1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
-1. [Pull Request](https://github.com/franco-ortega/ts-02-storybook/pull/10)
+1. [Pull Request - disable completed chapters](https://github.com/franco-ortega/ts-02-storybook/pull/10)
+1. [Pull Request - fine tune styling of disabled chapters](https://github.com/franco-ortega/ts-02-storybook/pull/11)
 1. [Website](https://tell-your-tale.netlify.app/)
 
 
