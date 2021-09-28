@@ -494,11 +494,30 @@ Also, I watched a few video tutorials that explained the differences between int
 
 **Link(s) to work**
 1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
-1. [Pull Request](https://https://github.com/franco-ortega/ts-02-storybook/pull/9.com/franco-ortega/ts-02-storybook/pull/8)
+1. [Pull Request #1 - change userData from array to object](https://github.com/franco-ortega/ts-02-storybook/pull/8)
+1. [Pull Request #2 - separate user selections from chapters completed](https://github.com/franco-ortega/ts-02-storybook/pull/9)
 1. [Website](https://tell-your-tale.netlify.app/)
 1. [TypeScript Types Vs. Interfaces](https://www.youtube.com/watch?v=bEuXRAr0BVo)
 1. [TypeScript: Interfaces vs Types - Learn in 5 minutes](https://www.youtube.com/watch?v=esWDwiFVqhw)
 1. [TypeScript Interfaces vs Types](https://www.youtube.com/watch?v=crjIq7LEAYw)
+
+
+---
+
+### Day 58: Monday, September 27 2021
+
+**Project:** Storybook
+
+**Tech:** React, TypeScript
+
+**Today's Progress:** I finally got around to disabling the completed chapters. Then, I did some refactoring to reduce the redundancy in the data file and make the naming of variables more consistent.
+
+**Thoughts:** The redundacy is the data file was that each chapter title was the key for a chapter object (that held the selections to be displayed on each respective page), but each chapter title was also a value of a title property inside each chapter object. The key was lowercase, and the value was uppercase. I used the key (lowercase) to create the URLs for the links to each chapter page, and once inside a chapter page, the key was used with bracket notation to access the data of the respective object. Whereas, I used the value of the title property (uppercase first letter) to display the title on the Chapters page and ChapterDetails page. It took a while of experimenting to be able to remove the title property (uppercase) because I wanted the URL to remain lowercase. If the title had an uppercase first letter, I could use the toLowerCase method to make it all lowercase for the URL. However, once it was pulled out of the params in the ChapterDetails page, I was not able to make the first letter uppercase again in way that made TypeScript happy. I almost gave up on my effort, but eventually, I figured out a solution. I kept the title lowercase and created a function that would make the first letter uppercase for the places where the title would be displayed on the page.
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
+1. [Pull Request](https://github.com/franco-ortega/ts-02-storybook/pull/10)
+1. [Website](https://tell-your-tale.netlify.app/)
 
 
 ---
