@@ -523,6 +523,31 @@ Also, I watched a few video tutorials that explained the differences between int
 
 ---
 
+### Day 59 Tuesday, September 28 2021
+
+**Project:** Storybook
+
+**Tech:** React, TypeScript
+
+**Today's Progress:** The logic was pretty much completed yesterday. Today I did some fine tuning and error handling.
+
+1. I added a Go Back button to the reusable ChapterDetails component. This will allow the user to go back to the Chapters page.
+1. I made added the required attribute to the input of the Prologue page (so the user has to enter a name to proceed) and the radio buttons of the ChapterDetails component (so the user has to make a selection to hit the Submit button).
+1. I changed the New Story button to redirect the user to the Chapters page instead of the Prologue page. This allows the user with the same name to create a new story without having to re-enter their name on the Prologue page. This button still resets the userSelections state and completed state. Then, I added a New User button to the Story page, which resets all the state (userName, userSelections, completed) and redirects to the Prologue page to start from the beginning, so a new user can enter a new userName. 
+
+**Thoughts:** It felt good to be able to spot the errors that could happen without having the required attribute on the inputs. It was also nice to provide the user a way to exit the ChapterDetails page without having to submit a selection. Because maybe they want to look at all the chapters before making any selections. Adding the New User button felt like a helpful option, too, so that the current user could make a new story without having to re-enter their name, but they could also pass the device to someone new to make a story without having to manually go back through all the pages and reload the site.
+
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
+1. [Pull Request #1 - add Go Back button ](https://github.com/franco-ortega/ts-02-storybook/pull/12)
+1. [Pull Request #2 - make inputs required](https://github.com/franco-ortega/ts-02-storybook/pull/13)
+1. [Pull Request #3 - add New User button](https://github.com/franco-ortega/ts-02-storybook/pull/14)
+1. [Website](https://tell-your-tale.netlify.app/)
+
+
+---
+
 ### Day ??: ?day, September ??, 2021
 
 **Project:** 
