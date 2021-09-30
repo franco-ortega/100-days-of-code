@@ -548,6 +548,32 @@ Also, I watched a few video tutorials that explained the differences between int
 
 ---
 
+### Day 60 Wednesday, September 29, 2021
+
+**Project:** Sass Demo with React
+
+**Tech:** Sass, React
+
+**Today's Progress:** I started a new app to play with Sass and to implement with React in particular. I created variables for colors and fonts and used the @extend, @forward, and @use features.
+
+**Thoughts:** This is my second time using Sass, and the first time was also with React. However, I used node-sass last time, and I know that version is being retired, so I wanted to see if I could figure out how to use to new Dart Sass with React because I couldn't figure out how to do that before. The documentation said to install it globally, but I didn't want to do that because I wasn't sure what kind of unexpected effects that might have. I searched through articles and video tutorials, and so many of them (even those from this year) were still using node-sass. However, eventually, I found an article that showed how to use Dart Sass with React. All that was required was this line for installation:
+*npm install sass --save-dev*
+
+There was also this scipt to add:
+*"sass" : "sass src/scss:src/css --watch --no-source-map"*
+
+Although, it seems like this isn't needed when Sass is used with React because React automatically takes care of the transpiling of Sass into CSS. However, before starting on this app, I made an regular HTML app with Sass, and for that one, I did need to run this line to create the CSS files:
+*./node_modules/.bin/sass --watch src/scss:dist/css*
+
+**Link(s) to work**
+1. [Repo](https://github.com/franco-ortega/demo-sass-02-react)
+1. [Website](https://sass-react-demo.netlify.app/)
+1. [Sass video tutorial - Auto-refresh made easy with Parcel](https://www.youtube.com/watch?v=wYWf2m_yzBQ)
+1. [Sass video tutorial - how to use @use & @forward](https://www.youtube.com/watch?v=CR-a8upNjJ0)
+
+
+---
+
 ### Day ??: ?day, September ??, 2021
 
 **Project:** 
