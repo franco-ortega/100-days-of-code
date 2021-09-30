@@ -1,4 +1,3 @@
-
 ### Day 32: Wednesday, September 1, 2021
 
 **Project:** Todo List App
@@ -14,17 +13,18 @@ Additionally, I had an unusal eslint error with an equals sign in a class compon
 As for the eslint issue, I did notice that eslint errors were displaying in my functional components when they occured, but some of those same errors (indention, missing semi-colon) didn't show up in the class components, which is where the surprising equals sign error did show up. When I added the babel parser and its associated code to the eslint file, the equals sign error no longer came up, but the eslint errors that were coming up in the functional components now no longer came up either. However, they still broke the deployement on Netlify and needed to be fixed. And after all that, I tried removing all the babel code in the eslint file, which made error messages in the functional components be visible again as well as the equals sign error in the class component, but as long as the errors in the functional components were fixed, the equals sign error in the class component didn't seem to matter. The app still deployed fine with it.
 
 **Link(s) to work**
+
 1. [Repo](https://github.com/franco-ortega/demo-react-01-todos)
 1. [Pull Request #1 - style updates](https://github.com/franco-ortega/demo-react-01-todos/commit/0b267390154a5246a7a928e516ff86ca0afa75e8)
 1. [Pull Request #2 - eslint "fix"](https://github.com/franco-ortega/demo-react-01-todos/commit/b01feee8d266adac24cd86d02a75c244f9e42a1f)
 1. [Website](https://a-list-of-todos.netlify.app)
-
 
 ### Day 33: Thursday, September 2, 2021
 
 **Today's Progress:** (~6 hrs) I took the [Just JavaScript](https://justjavascript.com/) course.
 
 **Thoughts:** I found this course very helpful for gaining a better understanding of:
+
 1. primitive values (which are immutable, which makes sense, but I never thought of them that way before)
 1. the relationship between variables and values
 1. the fact that values are passed into functions (as opposed to the actual arguments)
@@ -33,7 +33,6 @@ As for the eslint issue, I did notice that eslint errors were displaying in my f
 It also provided great visuals to help create a wonderful mental model of what happens when variables are re-assigned.
 
 This course does not teach JavaScript, but it helps with understanding how some of the fundamentals work. I started learning JavaScript one year ago, and I would highly recommend this course to anyone who is a few months into their JavaScript journey or even a few years.
-
 
 ---
 
@@ -50,25 +49,26 @@ This course does not teach JavaScript, but it helps with understanding how some 
 Also, I tried adding a color gradient on the text, which looked really nice. However, it didn't work on mobile and left the text transparent, so I removed the gradient.
 
 **Link(s) to work**
+
 1. [Repo](https://github.com/franco-ortega/glowing-colors)
 1. [Pull Request #1 - add Welcome component](https://github.com/franco-ortega/glowing-colors/commit/ab0ed96ff2594496c32ca51c3e6e659994aff163)
 1. [Pull Request #2 - remove text gradient](https://github.com/franco-ortega/glowing-colors/commit/60aad948d21eebd23c61e310da5249636e24a84f)
 1. [Website](https://glowing-colors.netlify.app)
 
-
 ---
+
 ### Day 35: Saturday, September 4, 2021
 
 **Today's Progress:** A day of rest.
 
-
 ---
+
 ### Day 36: Sunday, September 5, 2021
 
 **Today's Progress:** Another day of rest.
 
-
 ---
+
 ### Day 37: Monday, September 6, 2021
 
 **Project:** Storybook
@@ -80,12 +80,13 @@ Also, I tried adding a color gradient on the text, which looked really nice. How
 **Thoughts:** I'm getting back into TypeScript, and this will be my first fully-fledged app that combines it with React. I spent almost an hour watching video tutorials followed by more than an hour sketching out a plan on Miro. Then, I spent several more hours using test-driven development (TDD) to start building the app. I set up the App component with a router and created the initial Prologue component with a form, and the initial Chapters component with test data. It's coming together nicely so far.
 
 **Link(s) to work**
+
 1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
 1. [Pull Request #1 - Prologue component](https://github.com/franco-ortega/ts-02-storybook/commit/45d24ecb55953ea8fddc88204095b56c5cac672c)
 1. [Pull Request #2 - Chapters component](https://github.com/franco-ortega/ts-02-storybook/commit/4dd5ebd4a2eb6fd0895bd2ab33d941a1e93cbfe4)
 
-
 ---
+
 ### Day 38: Tueday, September 7, 2021
 
 **Project:** Storybook
@@ -97,12 +98,13 @@ Also, I tried adding a color gradient on the text, which looked really nice. How
 **Thoughts:** I vaguely remember creating a dynamic route for a school project over 6 months ago. It was part of an app that fetched fictional character data (LotR) from an API. The title of each character was displayed on the page as a link. Clicking on a character link took the user to a page that displayed details of that particular character. A reusuable component was used to generate all the character details pages. So, the work today was not totally knew to me. I had done this sort of work at least once in the past (and probably more like a few times), but my memory was really fuzzy on it, and I had never done this with TypeScript before, so that made it extra tricky, but I seemed to get things most of the way there today. Also, I did most of the work today with a test component using data inside that same file just to see if I could get it working more or less properly.
 
 **Link(s) to work**
+
 1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
 1. [Pull Request](https://github.com/franco-ortega/ts-02-storybook/pull/2)
 1. [Website](https://tell-your-tale.netlify.app/)
 
-
 ---
+
 ### Day 39: Wednesday, September 8, 2021
 
 **Project:** Storybook
@@ -114,8 +116,8 @@ Also, I tried adding a color gradient on the text, which looked really nice. How
 **Thoughts:** It felt good to get all this wired up and working properly. The toughest part was figuring out how to give TypeScript the proper types. Each dynamic page needed to pull a word from the URL in order to display the appropriate data, and TypeScript was getting super grumpy about properly typing params. Eventually, after much internet searching, I found out that I could use "keyof typeof dataName" where dataName was the variable that pointed to the imported data. Such as "import dataName from './data/dataFile.json'". Additionally, the main page (that had links to all the dymanic pages) also needed to import the data to generate the links by accessing the keys of objects inside the data file. I was able to get the keys easily with Object.keys(), but properly typing these values was super tricky too. The values were strings, but TypeScript would not accept the string type. Eventually, I realized, it would only accept the strings listed in the data. I was able to get it working by creating a type that included all the strings with or statments ( || ) between each string. However, that was not at all dynamic and would get very clunky as the data scaled up. The solution was to create a type with the same shape as the objects in the data file, and then, another type that was an array of the previous object type. It looks like this:
 
 type ChapterInfo = {
-  title: string,
-  choices: string[]
+title: string,
+choices: string[]
 }
 
 type AllChapterInfo = ChapterInfo[]
@@ -123,6 +125,7 @@ type AllChapterInfo = ChapterInfo[]
 AllChapterInfo was set as the type for the variable that held the array of object values created by Object.value(). That was a doozy, but now I know how to handle that kind of issue.
 
 **Link(s) to work**
+
 1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
 1. [Pull Request](https://github.com/franco-ortega/ts-02-storybook/pull/3)
 1. [Website](https://tell-your-tale.netlify.app/)
@@ -135,7 +138,6 @@ I attended TechCrawl 2021. I did attend the virtual version last year, but this 
 
 1. [TechCrawl](https://www.techcrawl.org/2021-techcrawl)
 1. [Alchemy Code Lab](https://www.alchemycodelab.com/)
-
 
 ---
 
@@ -151,7 +153,6 @@ I attended TechCrawl 2021. I did attend the virtual version last year, but this 
 
 **Link(s)**
 [LTX Quest](https://ltxconnect.org/quest/)
-
 
 ---
 
@@ -171,9 +172,9 @@ Also, I wasn't allowed to use a database but had to store the updated data "in m
 
 **Link(s)**
 Because this is a take-home project for an interview, I am not allowed to post the code online, but here are links to resources that I used to build it:
+
 1. [Redis](https://redis.io/)
 1. [Web Dev Simplified](https://www.youtube.com/watch?v=jgpVdJB2sKQ)
-
 
 ---
 
@@ -195,9 +196,9 @@ The third endpoint was a POST route for the 3rd-party API to send me the status 
 
 **Link(s)**
 Because this is a take-home project for an interview, I am not allowed to post the code online, but here are links to resources that I used to build it:
+
 1. [Redis](https://redis.io/)
 1. [Web Dev Simplified](https://www.youtube.com/watch?v=jgpVdJB2sKQ)
-
 
 ---
 
@@ -207,7 +208,7 @@ Because this is a take-home project for an interview, I am not allowed to post t
 
 **Tech:** React, Node, Express, Redis, webhooks
 
-**Today's Progress:** I created the logic that allowed the server to process data in a very specific way outlined in the requirement. There were 9 pieces of data that had to be sent to an external API for processing, and the processing of each piece of data resulted in  multiple incoming requests to my server. However, I could not send all 9 pieces of data together or immediately consecutively. I could only send 3 pieces of data to start, and when 1 piece was completed, then I could send out the next one.
+**Today's Progress:** I created the logic that allowed the server to process data in a very specific way outlined in the requirement. There were 9 pieces of data that had to be sent to an external API for processing, and the processing of each piece of data resulted in multiple incoming requests to my server. However, I could not send all 9 pieces of data together or immediately consecutively. I could only send 3 pieces of data to start, and when 1 piece was completed, then I could send out the next one.
 
 **Thoughts:** I tried building the logic to handle all this complexity right from the start. However, the combination of multiple loops and conditional statments wound up being too much to track all at once off the bat. I scrapped this effort and restarted with a simpler approach. First, I desgined the server to process only the first piece of data. Then, when that was working, I added loops so it would process every piece of data right away. After that was completed, I finally added the conditional statments to check if a piece of data had been completed, and if so, to send out the next piece of data.
 
@@ -215,7 +216,6 @@ Everything appeared to be working properly except for one piece of data that nev
 
 **Link(s)**
 Because this is a take-home project for an interview, I am not allowed to post the code online.
-
 
 ---
 
@@ -232,8 +232,8 @@ Because this is a take-home project for an interview, I am not allowed to post t
 As for Promises, I had used Promise.all and Promise.resolve before, but that was over 6 months ago. Also, I had never created a Promise using the "new" keyword before. I came across a video tutorial by Web Dev Simplified that helped refresh my memory and teach me new aspects of Promises too.
 
 **Link(s)**
-1. [Web Dev Simplied - Promises](https://www.youtube.com/watch?v=DHvZLI7Db8E)
 
+1. [Web Dev Simplied - Promises](https://www.youtube.com/watch?v=DHvZLI7Db8E)
 
 ---
 
@@ -248,9 +248,8 @@ As for Promises, I had used Promise.all and Promise.resolve before, but that was
 **Thoughts:** I'd say this was a pretty good beginner course on web accessibility. I was already familiar with some of this material, but I learned new things too - like that it is helpful to provide the same styling to focus and hover effects, so that the same experience is provided to users who use a mouse/touchpad and users who use keyboard navigation. Also, even though I coded along to this portion of the course, I didn't do that with the prior portions, which included the importtance of semantic HTML and skip links. All portions of the course had coding exercises to do afterwards, which involved making changes to sample websites in order to make them more accessible, and I did all of these exercises, but I'd still like to go back and practice those early portions on my own outside of the sample websites.
 
 **Link(s)**
+
 1. [Introduction to Web Accessibility WCAG 2.1](https://www.udemy.com/course/introduction-to-web-accessibility-wcag21/)
-
-
 
 ---
 
@@ -262,12 +261,11 @@ As for Promises, I had used Promise.all and Promise.resolve before, but that was
 
 **Today's Progress:** My take-home project was rejected, but I was given the opportunity to make changes. I removed the Redis code that was storing the data (and its updates) in local memory. My new approach to storing the updated data was to use Node to write a file, and it would write to the file again with updates. This worked. Also, I created a work-around to avoid a bug that I discovered in the external API provided by the interviewer. This fix got the project working exactly as expected, so that was exciting!
 
-**Thoughts:** The problem was that the project had to keep the state of the data (and updates to the data) in memory. I couldn't use a database, so I used Redis because that stored data in local memory. This seemed like an appropriate solution, but apparently, in the eyes of the interviewer, Redis counted as a database. 
+**Thoughts:** The problem was that the project had to keep the state of the data (and updates to the data) in memory. I couldn't use a database, so I used Redis because that stored data in local memory. This seemed like an appropriate solution, but apparently, in the eyes of the interviewer, Redis counted as a database.
 
 As for the bug, I realized that the reason one piece of data seemed to be processed strangely (by the external API provided by the interviewer) was because there was a bug in it. I handled this by checking for the behavior caused by the bug and responding in a way that processed the data as expected.
 
 (This will be my last post about this project. I re-submitted, but it was rejected again. They didn't like my new approach to saving the data updates. And apparently, there is some other way to save updated data in Node that I don't know about yet because it turns out that was what they wanted. It would have helped if they made that clear because then I could have researched this approach to implement it. Also, they didn't provide any feedback about the rest of the project. That was disappointing. It would have been nice to know what they thought about the rest of it. Especially since it did work properly. They just didn't like one of my approaches. At least they did make the effort to give me code that was their guesstimate of how they wanted my code to look like, so I'll try updating mye project with their code to see if it still works that way.)
-
 
 ---
 
@@ -296,7 +294,6 @@ This code would add a single item to an object (if the property didn't exist alr
 
 Once I figured this out, it was easy enough to change the itemArray to an object, and then it worked as expected. No more empty items. And the test passed too.
 
-
 ---
 
 ### Day 49: Saturday, September 18, 2021
@@ -308,7 +305,6 @@ Once I figured this out, it was easy enough to change the itemArray to an object
 **Today's Progress:** I took an online assessment from company that I applied to earlier in the week.
 
 **Thoughts:** It went smoothly.
-
 
 ---
 
@@ -327,6 +323,7 @@ There was only one media queries before. This is a mobile first design, and the 
 And this was all CSS work, so it took multiple pull requests to make sure everything was looking as expected on mobile. You know how it goes.
 
 **Link(s) to work**
+
 1. [Repo](https://github.com/franco-ortega/glowing-colors)
 1. [Pull Request #1 - change text color](https://github.com/franco-ortega/glowing-colors/pull/9)
 1. [Pull Request #2 - add media query](https://github.com/franco-ortega/glowing-colors/pull/10)
@@ -346,6 +343,7 @@ And this was all CSS work, so it took multiple pull requests to make sure everyt
 **Thoughts:** Previously, once the orbs began rendering, there was no way to stop the process from continuing without end or to return to the Welcome component that serves as a landing page to greet the user. So, I added a button in the upper righthand corner that does both of these things, and I added instructions to click in that area to return to the "home page". This **Go Back** button has an opacity of 0% to keep it invisible to the user under most conditions. However, when the user hovers over the button, or when the button receives focus, the opacity becomes 100% to make it visible. I recently took a course about web accessibility on Udemy, and I learned that it is helpful to have the same styling for focus and hover. This allows users who navigate with a mouse and users who navigate with a keyboard to have the same experience and same acesss to functionality.
 
 **Link(s) to work**
+
 1. [Repo](https://github.com/franco-ortega/glowing-colors)
 1. [Pull Request](https://github.com/franco-ortega/glowing-colors/pull/13)
 1. [Glowing Colors Website](https://glowing-colors.netlify.app)
@@ -390,11 +388,11 @@ Anyway, long story short (too late), the userData array would oftentimes be in a
 So I guess the real long story short is that I still need to do more planning for this next step of disabling chapters as they are completed. Looking forward to the challenge!
 
 **Link(s) to work**
+
 1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
 1. [Commit #1 - create custom hook](https://github.com/franco-ortega/ts-02-storybook/commit/5f4e8445b5cea8140fa357640eeb96348fb2c655)
 1. [Commit #2 - implement custom hook](https://github.com/franco-ortega/ts-02-storybook/commit/c7dd9e6e96f32192bce7b5de84c6bedcab7a3d0c)
 1. [Storybook Website](https://tell-your-tale.netlify.app/)
-
 
 ---
 
@@ -411,10 +409,10 @@ So I guess the real long story short is that I still need to do more planning fo
 Anyway, after close to 90 min of trying and failing to make TypeScript happy, I decided to put this on the backburner and move on to the next step. Which was creating the Story component to display the completed story. I was able to do this relatively quickly, and in doing so, I successfully used the reduce method for the first time. Each piece of the story was an string in an array, and at first, I used the map method to place each piece into an p-tag and then display those elements on the screen. But then, with the reduce method, I was able to concatenate all the pieces into a single string and display it in a single p-tag. Instead of having a p-tag for each piece.
 
 **Link(s) to work**
+
 1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
 1. [Pull request](https://github.com/franco-ortega/ts-02-storybook/pull/5)
 1. [Storybook Website](https://tell-your-tale.netlify.app/)
-
 
 ---
 
@@ -428,10 +426,9 @@ Anyway, after close to 90 min of trying and failing to make TypeScript happy, I 
 
 **Thoughts:** My stack is the PERN stack (PostgreSQL, Express, React, Node). I am currently taking a Udemy course to learn more about Node (see link below), and the final part of this course is to build a Todo app using the MEAN stack. I have seen a tiny bit of Angular and Mongo but have never worked with them, so it was neat to finally try them out. Also, this course is at least a few years old, so some of it is outdated. The course used MLab for the Mongo database, but Mlab no longer accepts new users, so I had to sign up straight with MongoDB. The process was different than what was outlined in the course. Also, some of the Angular code used in the course is now deprecated. However, in both instances, I was able to figure out how to do all this in the current way, so that felt good. Sure helps me feel more like a professional. :)
 
-
 **Link(s) to work**
-1. [Learn and Understand NodeJS](https://www.udemy.com/course/understand-nodejs/)
 
+1. [Learn and Understand NodeJS](https://www.udemy.com/course/understand-nodejs/)
 
 ---
 
@@ -445,13 +442,12 @@ Anyway, after close to 90 min of trying and failing to make TypeScript happy, I 
 
 **Thoughts:** I needed a way to keep track of which chapters were completed in order to know which chapters to disable (this work hasn't been done yet. My original efforts to do this with an object earlier this week went down in flames. However, I was able to accomplish it today by changing the userData array. Before, it held a string for the selection made by the user at each chapter. It was an array of strings. Now it is an array of sub-arrays. Each sub-array has the user selection as the first item, and the chapter title as the second item. I will be able to use these chapter titles to disable chapters (as they are completed) in the Chapters component. Progress. Not ideal, but still moving forward.
 
-
 **Link(s) to work**
+
 1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
 1. [Pull Request #1](https://github.com/franco-ortega/ts-02-storybook/pull/6)
 1. [Pull Request #2](https://github.com/franco-ortega/ts-02-storybook/pull/7)
 1. [Website](https://tell-your-tale.netlify.app/)
-
 
 ---
 
@@ -469,12 +465,11 @@ Anyway, after close to 90 min of trying and failing to make TypeScript happy, I 
 
 I don't like that the shape is just an object because each key in this object has another object as its value, and those objects have two properties with strings as values. Unfortunately, trying to be more specific with the shape was causing errors, so I'm just going to leave it like this for now.
 
-
 **Link(s) to work**
+
 1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
 1. [Pull Request](https://github.com/franco-ortega/ts-02-storybook/pull/8)
 1. [Website](https://tell-your-tale.netlify.app/)
-
 
 ---
 
@@ -493,6 +488,7 @@ Also, I placed all of the interfaces and types that were used in multiple files 
 Also, I watched a few video tutorials that explained the differences between interfaces vs types, and they helped me understand their differences (capabilities and limitations) much better than the TypeScript docs or StackOverflow threads on the subject. Thank you, YouTubers! See their links below.
 
 **Link(s) to work**
+
 1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
 1. [Pull Request #1 - change userData from array to object](https://github.com/franco-ortega/ts-02-storybook/pull/8)
 1. [Pull Request #2 - separate user selections from chapters completed](https://github.com/franco-ortega/ts-02-storybook/pull/9)
@@ -500,7 +496,6 @@ Also, I watched a few video tutorials that explained the differences between int
 1. [TypeScript Types Vs. Interfaces](https://www.youtube.com/watch?v=bEuXRAr0BVo)
 1. [TypeScript: Interfaces vs Types - Learn in 5 minutes](https://www.youtube.com/watch?v=esWDwiFVqhw)
 1. [TypeScript Interfaces vs Types](https://www.youtube.com/watch?v=crjIq7LEAYw)
-
 
 ---
 
@@ -515,11 +510,11 @@ Also, I watched a few video tutorials that explained the differences between int
 **Thoughts:** The redundacy is the data file was that each chapter title was the key for a chapter object (that held the selections to be displayed on each respective page), but each chapter title was also a value of a title property inside each chapter object. The key was lowercase, and the value was uppercase. I used the key (lowercase) to create the URLs for the links to each chapter page, and once inside a chapter page, the key was used with bracket notation to access the data of the respective object. Whereas, I used the value of the title property (uppercase first letter) to display the title on the Chapters page and ChapterDetails page. It took a while of experimenting to be able to remove the title property (uppercase) because I wanted the URL to remain lowercase. If the title had an uppercase first letter, I could use the toLowerCase method to make it all lowercase for the URL. However, once it was pulled out of the params in the ChapterDetails page, I was not able to make the first letter uppercase again in way that made TypeScript happy. I almost gave up on my effort, but eventually, I figured out a solution. I kept the title lowercase and created a function that would make the first letter uppercase for the places where the title would be displayed on the page.
 
 **Link(s) to work**
+
 1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
 1. [Pull Request - disable completed chapters](https://github.com/franco-ortega/ts-02-storybook/pull/10)
 1. [Pull Request - fine tune styling of disabled chapters](https://github.com/franco-ortega/ts-02-storybook/pull/11)
 1. [Website](https://tell-your-tale.netlify.app/)
-
 
 ---
 
@@ -533,18 +528,17 @@ Also, I watched a few video tutorials that explained the differences between int
 
 1. I added a Go Back button to the reusable ChapterDetails component. This will allow the user to go back to the Chapters page.
 1. I made added the required attribute to the input of the Prologue page (so the user has to enter a name to proceed) and the radio buttons of the ChapterDetails component (so the user has to make a selection to hit the Submit button).
-1. I changed the New Story button to redirect the user to the Chapters page instead of the Prologue page. This allows the user with the same name to create a new story without having to re-enter their name on the Prologue page. This button still resets the userSelections state and completed state. Then, I added a New User button to the Story page, which resets all the state (userName, userSelections, completed) and redirects to the Prologue page to start from the beginning, so a new user can enter a new userName. 
+1. I changed the New Story button to redirect the user to the Chapters page instead of the Prologue page. This allows the user with the same name to create a new story without having to re-enter their name on the Prologue page. This button still resets the userSelections state and completed state. Then, I added a New User button to the Story page, which resets all the state (userName, userSelections, completed) and redirects to the Prologue page to start from the beginning, so a new user can enter a new userName.
 
 **Thoughts:** It felt good to be able to spot the errors that could happen without having the required attribute on the inputs. It was also nice to provide the user a way to exit the ChapterDetails page without having to submit a selection. Because maybe they want to look at all the chapters before making any selections. Adding the New User button felt like a helpful option, too, so that the current user could make a new story without having to re-enter their name, but they could also pass the device to someone new to make a story without having to manually go back through all the pages and reload the site.
 
-
 **Link(s) to work**
+
 1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
 1. [Pull Request #1 - add Go Back button ](https://github.com/franco-ortega/ts-02-storybook/pull/12)
 1. [Pull Request #2 - make inputs required](https://github.com/franco-ortega/ts-02-storybook/pull/13)
 1. [Pull Request #3 - add New User button](https://github.com/franco-ortega/ts-02-storybook/pull/14)
 1. [Website](https://tell-your-tale.netlify.app/)
-
 
 ---
 
@@ -554,38 +548,65 @@ Also, I watched a few video tutorials that explained the differences between int
 
 **Tech:** Sass, React
 
-**Today's Progress:** I started a new app to play with Sass and to implement with React in particular. I created variables for colors and fonts and used the @extend, @forward, and @use features.
+**Today's Progress:** (2 hr) I started a new app to play with Sass and to implement with React in particular. I created variables for colors and fonts and used the @extend, @forward, and @use features.
 
 **Thoughts:** This is my second time using Sass, and the first time was also with React. However, I used node-sass last time, and I know that version is being retired, so I wanted to see if I could figure out how to use to new Dart Sass with React because I couldn't figure out how to do that before. The documentation said to install it globally, but I didn't want to do that because I wasn't sure what kind of unexpected effects that might have. I searched through articles and video tutorials, and so many of them (even those from this year) were still using node-sass. However, eventually, I found an article that showed how to use Dart Sass with React. All that was required was this line for installation:
-*npm install sass --save-dev*
+_npm install sass --save-dev_
 
 There was also this scipt to add:
-*"sass" : "sass src/scss:src/css --watch --no-source-map"*
+_"sass" : "sass src/scss:src/css --watch --no-source-map"_
 
 Although, it seems like this isn't needed when Sass is used with React because React automatically takes care of the transpiling of Sass into CSS. However, before starting on this app, I made an regular HTML app with Sass, and for that one, I did need to run this line to create the CSS files:
-*./node_modules/.bin/sass --watch src/scss:dist/css*
+_./node_modules/.bin/sass --watch src/scss:dist/css_
 
 **Link(s) to work**
+
 1. [Repo](https://github.com/franco-ortega/demo-sass-02-react)
 1. [Website](https://sass-react-demo.netlify.app/)
 1. [Sass video tutorial - Auto-refresh made easy with Parcel](https://www.youtube.com/watch?v=wYWf2m_yzBQ)
 1. [Sass video tutorial - how to use @use & @forward](https://www.youtube.com/watch?v=CR-a8upNjJ0)
 
+---
+
+### Day 61: Thursday, September 30, 2021
+
+**Project:** Sass Demo with React
+
+**Tech:** Sass, React
+
+**Today's Progress:** (1 hr) - I added a mixin, created an Image component, and adjusted the styling for a mobile first design.
+
+**Thoughts:** The Sass features are starting to make more sense now. @extend is used to group together any number properties that can be added to any selector with a single line of code. @mixin is similar to @extend in grouping together multiple properties, but it can also accept arguments (like a function) to be used as values, which, make it more versatile than @extend; if the same @mixin is given different arguments (such as different colors) in different selectors, each selector would have a slightly different style (such as a different color). In this example. this box-shadow color could be different for every selector that uses this mixin:
+
+<pre>
+@mixin shadow($color: yellow) {
+  box-shadow: 0 0 2vw 1vw $color;
+  margin: 1rem;
+}
+</pre>
+
+**Link(s) to work**
+
+1. [Repo](https://github.com/franco-ortega/demo-sass-02-react)
+1. [Commit #1 - add mixin](https://github.com/franco-ortega/demo-sass-02-react/commit/add32c5636959c43e5b2551a747cf91f3dae7189)
+1. [Commit #1 - add Image component](https://github.com/franco-ortega/demo-sass-02-react/commit/c5e68fcb6345a8562ff4ae25076c61fcf6cb6ea9)
+1. [Commit #1 - adjust styling for mobile first design](https://github.com/franco-ortega/demo-sass-02-react/commit/790cc43725bbe45b55cb82e1ff4b829fbd064392)
+1. [Website](https://sass-react-demo.netlify.app/)
 
 ---
 
 ### Day ??: ?day, September ??, 2021
 
-**Project:** 
+**Project:**
 
-**Tech:** 
+**Tech:**
 
-**Today's Progress:** 
+**Today's Progress:**
 
-**Thoughts:** 
-
+**Thoughts:**
 
 **Link(s) to work**
+
 1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
 1. [Pull Request](https://github.com/franco-ortega/ts-02-storybook/pull/8)
 1. [Website](https://tell-your-tale.netlify.app/)
