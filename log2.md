@@ -595,7 +595,58 @@ _./node_modules/.bin/sass --watch src/scss:dist/css_
 
 ---
 
-### Day ??: ?day, September ??, 2021
+### Day 62: Friday, October 1 2021
+
+**Project:** Sass Demo with React
+
+**Tech:** Sass, React
+
+**Today's Progress:** (90 min) I created variables for each part of the HSL code in order to easier adjust the color level, saturation, and light.
+
+<pre>
+$red-hsl: 0;
+$orange-hsl: 39;
+$yellow-hsl: 60;
+$green-hsl: 120;
+$blue-hsl: 240;
+$purple-hsl: 300;
+
+$sat-full: 100%;
+$sat-high: 75%;
+$sat-mid: 50%;
+$sat-low: 25%;
+$sat-none: 0%;
+
+$light-full: 100%;
+$light-high: 75%;
+$light-mid: 50%;
+$light-low: 25%;
+$light-none: 0%;
+</pre>
+
+Example:
+
+<pre>
+background: hsl($purple-hsl, $sat-full, $light-mid);
+</pre>
+
+I used these to create a series of color sets with each set having varying saturations levels of its specific color (see image below). Then, I created component to hold all the elements of a single color. Finally, I made a Sass mixin that handled all the styings of a single color (all 5 different saturation levels to the boxes of one color).
+
+**Thoughts:** Today I really saw the power of mixins to reduce repetitive CSS. I knew that properties could be placed in mixins, but I didn't realize that selectors could be placed inside mixins too. That really opened up things. Each color set has 5 boxes, and each box is styled differently, and that entire series of CSS code had to be repeated for every other. However, then I was able to put all that code into a single mixin that took in a parameter for the color. That saved me almost 100 lines of code!
+
+There was also repetitive HTML for each color set, but I created a reusable component with props to clean that up, and it felt good to see how quickly and easily I was able to implement that.
+
+![Set of colors with different saturation levels](./assets/saturations.png 'Color Boxes')
+
+**Link(s) to work**
+
+1. [Repo](https://github.com/franco-ortega/demo-sass-02-react)
+1. [Pull Request](https://github.com/franco-ortega/demo-sass-02-react/pull/1)
+1. [Website](https://sass-react-demo.netlify.app/)
+
+---
+
+### Day ??: ?day, October ??, 2021
 
 **Project:**
 
