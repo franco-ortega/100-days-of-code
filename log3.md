@@ -1,4 +1,4 @@
-### Day 62: Friday, October 1 2021
+### Day 62: Friday, October 1, 2021
 
 **Project:** Sass Demo with React
 
@@ -91,6 +91,42 @@ I needed to use bracket notation because the key of the styles object was not kn
 1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
 1. [Pull Request #1 - refactor SaturationBox](https://github.com/franco-ortega/demo-sass-02-react/pull/2)
 1. [Pull Request #2 - replace if else statment with bracket notation](https://github.com/franco-ortega/demo-sass-02-react/pull/3)
+1. [Website](https://tell-your-tale.netlify.app/)
+
+---
+
+### Day 64: Sunday, October 3, 2021
+
+**Project:** Sass Demo with React
+
+**Tech:** Sass, React
+
+**Today's Progress:** (1 hr) Added LightBox component to display colors with different levels of light in their HSL color codes.
+
+**Thoughts:**
+
+**Link(s) to work**
+
+1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
+1. [Pull Request](https://github.com/franco-ortega/demo-sass-02-react/pull/4)
+1. [Website](https://tell-your-tale.netlify.app/)
+
+---
+
+### Day 65: Monday, October 4, 2021
+
+**Project:** Sass Demo with React
+
+**Tech:** Sass, React
+
+**Today's Progress:** (1 hr) Added media queries for tablet and desktop views.
+
+**Thoughts:**
+
+**Link(s) to work**
+
+1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
+1. [Pull Request](https://github.com/franco-ortega/demo-sass-02-react/pull/5)
 1. [Website](https://tell-your-tale.netlify.app/)
 
 ---
