@@ -131,6 +131,26 @@ I needed to use bracket notation because the key of the styles object was not kn
 
 ---
 
+### Day 66: Tuesday, October 5, 2021
+
+**Project:** Sass Demo with React
+
+**Tech:** Sass, React
+
+**Today's Progress:** (1 hr) Updated media queries to be handled by a mixin.
+
+**Thoughts:** Came across some strange behavior where the background color would not fill the entire height of a component. The area below the final child element was transparent, so it showed up as a while gap between this component and the one below it. I did some searching and found the solution to be to add the **display: flex** property to the component, and then the background color went to the bottom edge. Alternatively, I was able to acheive the same effect by adding a border to the component, but that was a sub-par solution because I didn't want the component to have a border. I tried making the border transparent, but that still created a gap along any elements that sat along the edge of the component.
+
+Also along strange styling lines, when I added **display: flex** to a component with images, the image size grew big enough to fill the width of the screen, which looked terrible. The solution I found here was to add **align-items: center** to the component, and then the images went back to their regular size.
+
+**Link(s) to work**
+
+1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
+1. [Pull Request](https://github.com/franco-ortega/demo-sass-02-react/pull/6)
+1. [Website](https://tell-your-tale.netlify.app/)
+
+---
+
 ### Day ??: ?day, October ??, 2021
 
 **Project:**
