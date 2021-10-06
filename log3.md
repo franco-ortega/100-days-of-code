@@ -146,7 +146,8 @@ Also along strange styling lines, when I added **display: flex** to a component 
 **Link(s) to work**
 
 1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
-1. [Pull Request](https://github.com/franco-ortega/demo-sass-02-react/pull/6)
+1. [Pull Request #1](https://github.com/franco-ortega/demo-sass-02-react/pull/6)
+1. [Pull Request #2](https://github.com/franco-ortega/demo-sass-02-react/pull/7)
 1. [Website](https://tell-your-tale.netlify.app/)
 
 ---
