@@ -152,6 +152,32 @@ Also along strange styling lines, when I added **display: flex** to a component 
 
 ---
 
+### Day 67: Wednesday, October 6, 2021
+
+**Project:** Portfolio
+
+**Tech:** React, Sass
+
+**Today's Progress:** (1.5 hr) I added the **prefers-reduced-motion** media query to my portfolio site and set it to turn off the animations and transitions for users who have the **Reduce motion** option selected in the **Accessibility** section of their operating system settings.
+
+Also, I added Sass to this project and created a few extends, which replaced almost 300 lines of repetitive CSS across 4 files. Amazing!
+
+**Thoughts:** I tuned into a couple videos about web accessibility, and the first one (linked below) had a lot of high level helpful info and links to resources. One resource was an article that introduced me to the **prefers-reduced-motion** media query. It's a great, quick read that I recommend for everyone who builds websites, and I linked it below.
+
+Also, it was really great to put the power of Sass to use on my portfolio site. I was able to remove a fair amount of repetitive code (including CSS) in the main "details" pages/popups a couple months ago by creating a reusuable component that received the children prop. However, the same strategy didn't seem practical for the structure parent components of the details pages. Luckily, Sass was able to do the trick, and I am going to implement its features in other areas of my portfolio too.
+
+**Link(s) to work**
+
+1. [Getting started with web accessibility with Ashlee Boyer - video](https://www.youtube.com/watch?v=qr0ujkLLgmE&t=3s&ab_channel=KevinPowell)
+1. [Reduced Motion article](https://www.tatianamac.com/posts/prefers-reduced-motion)
+1. [Repo](https://github.com/franco-ortega/portfolio)
+1. [Pull Request #1](https://github.com/franco-ortega/portfolio/pull/223)
+1. [Pull Request #2](https://github.com/franco-ortega/portfolio/pull/224)
+1. [Pull Request #3](https://github.com/franco-ortega/portfolio/pull/225)
+1. [Website](https://francoortega.com/)
+
+---
+
 ### Day ??: ?day, October ??, 2021
 
 **Project:**
