@@ -178,6 +178,24 @@ Also, it was really great to put the power of Sass to use on my portfolio site. 
 
 ---
 
+### Day 68: Wednesday, October 7, 2021
+
+**Project:** Portfolio
+
+**Tech:** React, Sass
+
+**Today's Progress:** (1.5 hr) I added media queries to the continents and islands for landscape orientation on mobile view.
+
+**Thoughts:** I usually create a mobile-first design, but I made a desktop-first approach for my portfolio site because originally, I thought the layout for the mobile and desktop views would be essentially the same. However, long story short, that was not a feasible approach. The mobile view wound up needing to be very different from the desktop view, and I was able to create a very nice looking mobile view. However, it looked very distorted if the phone was turned sideways to landscape view. Now it looks so nice!! :)
+
+**Link(s) to work**
+
+1. [Repo](https://github.com/franco-ortega/portfolio)
+1. [Pull Request](https://github.com/franco-ortega/portfolio/pull/226)
+1. [Website](https://francoortega.com/)
+
+---
+
 ### Day ??: ?day, October ??, 2021
 
 **Project:**
