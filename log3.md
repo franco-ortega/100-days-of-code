@@ -178,7 +178,7 @@ Also, it was really great to put the power of Sass to use on my portfolio site. 
 
 ---
 
-### Day 68: Wednesday, October 7, 2021
+### Day 68: Thursday, October 7, 2021
 
 **Project:** Portfolio
 
@@ -192,6 +192,24 @@ Also, it was really great to put the power of Sass to use on my portfolio site. 
 
 1. [Repo](https://github.com/franco-ortega/portfolio)
 1. [Pull Request](https://github.com/franco-ortega/portfolio/pull/226)
+1. [Website](https://francoortega.com/)
+
+---
+
+### Day 69: Friday, October 8, 2021
+
+**Project:** Portfolio
+
+**Tech:** React, Sass
+
+**Today's Progress:** (1 hr) I added an extend to handle the flex alignment of the island components and applied it to each of them. Also, I fine tuned the position of the Compass and Scale elements. And I added Sass to the Legend as one of my front end skills.
+
+**Thoughts:** It felt good to reduce more repetitive code and make adjustments to a couple of the map elements in order to make them more pleasing to the eye. Also, it feels great to understand Sass well enough at this point to add it to my list of skills.
+
+**Link(s) to work**
+
+1. [Repo](https://github.com/franco-ortega/portfolio)
+1. [Pull Request](https://github.com/franco-ortega/portfolio/pull/228)
 1. [Website](https://francoortega.com/)
 
 ---
