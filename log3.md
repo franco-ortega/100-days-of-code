@@ -214,6 +214,24 @@ Also, it was really great to put the power of Sass to use on my portfolio site. 
 
 ---
 
+### Day 70: Saturday, October 9, 2021
+
+**Project:** Portfolio
+
+**Tech:** React, Sass
+
+**Today's Progress:** (1 hr) Created a mixin with the Sass map function to handle media queries. Added a new media query to ProjectDetails and to CartographyDetails and its reusuable child components for landscape orientation on mobile.
+
+**Thoughts:** My plan was to apply the media query mixin to several components, but after making adjustments for landscape orientation on the main components earlier this week, I realized that the popups needed to be adjusted for landscape orientation too.
+
+**Link(s) to work**
+
+1. [Repo](https://github.com/franco-ortega/portfolio)
+1. [Pull Request](https://github.com/franco-ortega/portfolio/pull/229)
+1. [Website](https://francoortega.com/)
+
+---
+
 ### Day ??: ?day, October ??, 2021
 
 **Project:**
