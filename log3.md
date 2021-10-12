@@ -258,8 +258,26 @@ Also, it was really great to put the power of Sass to use on my portfolio site. 
 1. [Pull Request #3 - adjust position](https://github.com/franco-ortega/portfolio/pull/233)
 1. [Pull Request #4 - media query ](https://github.com/franco-ortega/portfolio/pull/234)
 1. [Pull Request #5 - Legend ](https://github.com/franco-ortega/portfolio/pull/235)
-1. [Pull Request #5 - Legend ](https://github.com/franco-ortega/portfolio/pull/237)
-1. [Pull Request #5 - Legend ](https://github.com/franco-ortega/portfolio/pull/242)
+1. [Pull Request #5 - BorderCorner ](https://github.com/franco-ortega/portfolio/pull/237)
+1. [Pull Request #5 - CartographyDetails ](https://github.com/franco-ortega/portfolio/pull/242)
+1. [Website](https://francoortega.com/)
+
+---
+
+### Day 72: Monday, October 11, 2021
+
+**Project:** Portfolio
+
+**Tech:** React, Sass
+
+**Today's Progress:** (3 hr) Updated the Ocean module to scss, moved the grid to the outermost element and removed the element that had the grid, restructed the order of the elements to be more reflective of their importance, and added a media query to differntiate between wide vs narrow landscape orientation on mobile. Also, I made adjustments to the Compass component that were required after the updates to Ocean.
+
+**Thoughts:** The compass is a CSS wonder, which makes it a doozy to adjust. Also, moving the grid to the outermost element required lots of changes to everything inside that component, but being able to nest the selectors helped this go smoother.
+
+**Link(s) to work**
+
+1. [Repo](https://github.com/franco-ortega/portfolio)
+1. [Pull Request](https://github.com/franco-ortega/portfolio/pull/243)
 1. [Website](https://francoortega.com/)
 
 ---
