@@ -232,6 +232,38 @@ Also, it was really great to put the power of Sass to use on my portfolio site. 
 
 ---
 
+### Day 71: Sunday, October 10, 2021
+
+**Project:** Portfolio
+
+**Tech:** React, Sass
+
+**Today's Progress:** (3 hr) Lots of pull requests today:
+
+1. Updated the image that displays on previews when the site is linked on search engines and social media.
+1. Added meta tags to create the preview when posting this site on Twitter.
+1. Adjusted position of Resume, Cartography, and island components on mobile.
+1. Added media query to differentiate between tall vs short mobile devices (height above & below 700px).
+1. Updated the module for Legend to scss and replaced class names with nested selectors.
+1. Updated the module for BorderCorner to scss and replaced class names with nested selectors.
+1. Updated the module for CartographyDetails to scss and replaced class names with nested selectors.
+
+**Thoughts:** The project has a lot of CSS files. After changing the main components to to SCSS files last week, I didn't realize how many more files there were to change and update.
+
+**Link(s) to work**
+
+1. [Repo](https://github.com/franco-ortega/portfolio)
+1. [Pull Request #1 - portfolio preview](https://github.com/franco-ortega/portfolio/pull/231)
+1. [Pull Request #2 - meta tags ](https://github.com/franco-ortega/portfolio/pull/232)
+1. [Pull Request #3 - adjust position](https://github.com/franco-ortega/portfolio/pull/233)
+1. [Pull Request #4 - media query ](https://github.com/franco-ortega/portfolio/pull/234)
+1. [Pull Request #5 - Legend ](https://github.com/franco-ortega/portfolio/pull/235)
+1. [Pull Request #5 - Legend ](https://github.com/franco-ortega/portfolio/pull/237)
+1. [Pull Request #5 - Legend ](https://github.com/franco-ortega/portfolio/pull/242)
+1. [Website](https://francoortega.com/)
+
+---
+
 ### Day ??: ?day, October ??, 2021
 
 **Project:**
