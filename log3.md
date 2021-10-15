@@ -282,6 +282,54 @@ Also, it was really great to put the power of Sass to use on my portfolio site. 
 
 ---
 
+### Day 73: Tuesday, October 12, 2021
+
+**Project:** Portfolio
+
+**Tech:** React, Sass
+
+**Today's Progress:** (? hr)
+
+**Link(s) to work**
+
+1. [Repo](https://github.com/franco-ortega/portfolio)
+1. [Pull Request](https://github.com/franco-ortega/portfolio/pull/243)
+1. [Website](https://francoortega.com/)
+
+---
+
+### Day 74: Wednesday, October 13, 2021
+
+**Project:** Portfolio
+
+**Tech:** React, Sass
+
+**Today's Progress:** (? hr)
+
+**Link(s) to work**
+
+1. [Repo](https://github.com/franco-ortega/portfolio)
+1. [Pull Request](https://github.com/franco-ortega/portfolio/pull/243)
+1. [Website](https://francoortega.com/)
+
+---
+
+### Day 75: Thursday, October 14, 2021
+
+**Project:** Portfolio
+
+**Tech:** React, Sass
+
+**Today's Progress:** (1 hr) - Adjust the position of the Cartography on mobile landscape and Profile on mobile portrait. Reduced the z-index of continents and islands from 2 to 1.
+
+**Link(s) to work** The seemed to be behaving oddly on mobile for the Profile component. When I adjusted its left column, it moved as expected, but when I adjusted the right column, there was no change on the screen. It turned out that this component was set to position:absolute, and when I changed it to position:relative, it worked as expected. I don't yet understand why that made a difference. And the only reason I added position to components was because it was necessary to give them a z-index after I made changes to the grid earlier this week. They were no longer clickable until I gave them a z-index to put them above the grid layer. The grid layer now has a z-index of -1, so I gave everything a z-index of 2 justo to be safe incase anything had a z-index of 1, but today I reduced those 2's to 1's, and all is still well.
+
+1. [Repo](https://github.com/franco-ortega/portfolio)
+1. [Pull Request](https://github.com/franco-ortega/portfolio/pull/251)
+1. [Website](https://francoortega.com/)
+
+---
+
 ### Day ??: ?day, October ??, 2021
 
 **Project:**
