@@ -288,12 +288,12 @@ Also, it was really great to put the power of Sass to use on my portfolio site. 
 
 **Tech:** React, Sass
 
-**Today's Progress:** (? hr)
+**Today's Progress:** (1 hr) - Changed all the remaining css files to scss files. Adjusted the position of Profile on mobile.
 
 **Link(s) to work**
 
 1. [Repo](https://github.com/franco-ortega/portfolio)
-1. [Pull Request](https://github.com/franco-ortega/portfolio/pull/243)
+1. [Pull Request](https://github.com/franco-ortega/portfolio/pull/246)
 1. [Website](https://francoortega.com/)
 
 ---
