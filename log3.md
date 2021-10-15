@@ -290,6 +290,8 @@ Also, it was really great to put the power of Sass to use on my portfolio site. 
 
 **Today's Progress:** (1 hr) - Changed all the remaining css files to scss files. Adjusted the position of Profile on mobile.
 
+**Thoughts:**
+
 **Link(s) to work**
 
 1. [Repo](https://github.com/franco-ortega/portfolio)
@@ -304,7 +306,9 @@ Also, it was really great to put the power of Sass to use on my portfolio site. 
 
 **Tech:** React, Sass
 
-**Today's Progress:** (? hr)
+**Today's Progress:** (3 hr) - Legend media queries. GitHub and LinkedIn move to the right on mobile.
+
+**Thoughts:**
 
 **Link(s) to work**
 
@@ -322,10 +326,34 @@ Also, it was really great to put the power of Sass to use on my portfolio site. 
 
 **Today's Progress:** (1 hr) - Adjust the position of the Cartography on mobile landscape and Profile on mobile portrait. Reduced the z-index of continents and islands from 2 to 1.
 
-**Link(s) to work** The seemed to be behaving oddly on mobile for the Profile component. When I adjusted its left column, it moved as expected, but when I adjusted the right column, there was no change on the screen. It turned out that this component was set to position:absolute, and when I changed it to position:relative, it worked as expected. I don't yet understand why that made a difference. And the only reason I added position to components was because it was necessary to give them a z-index after I made changes to the grid earlier this week. They were no longer clickable until I gave them a z-index to put them above the grid layer. The grid layer now has a z-index of -1, so I gave everything a z-index of 2 justo to be safe incase anything had a z-index of 1, but today I reduced those 2's to 1's, and all is still well.
+**Thoughts:** The seemed to be behaving oddly on mobile for the Profile component. When I adjusted its left column, it moved as expected, but when I adjusted the right column, there was no change on the screen. It turned out that this component was set to position:absolute, and when I changed it to position:relative, it worked as expected. I don't yet understand why that made a difference. And the only reason I added position to components was because it was necessary to give them a z-index after I made changes to the grid earlier this week. They were no longer clickable until I gave them a z-index to put them above the grid layer. The grid layer now has a z-index of -1, so I gave everything a z-index of 2 justo to be safe incase anything had a z-index of 1, but today I reduced those 2's to 1's, and all is still well.
+
+**Link(s) to work**
 
 1. [Repo](https://github.com/franco-ortega/portfolio)
 1. [Pull Request](https://github.com/franco-ortega/portfolio/pull/251)
+1. [Website](https://francoortega.com/)
+
+---
+
+### Day 76: Friday, October 15, 2021
+
+**Project:** Portfolio
+
+**Tech:** React, Sass
+
+**Today's Progress:** (2.5 hr) - I added hover styles to the continents, which made them more consistent with the islands. Now they all clickable components transform on hover. Also, I added focus styles to the continents and islands for keyboard navigation; this makes it much more obvious with component has focus. The focus style is the same transform as the hover, and it adds a box shadow as well. Then, I updated the reduced-motion media queries to remove the focus and hover transforms, and to add the box shadow to the hover style.
+
+**Thoughts:** I gave the focus style the additional box shadow because I figured that if a user who hovers over clickable component then looks away from the screen, when they look at the screen again, they can still see where the mouse is positioned to remind them which items is hovered. However, if a user using keyboard navigation looks away from the screen, there is no other indicator to show them which item is focused when they look back at the screen, and it might not be obvious which focused item is currently transformed, so the box shadow helps make the focus more obvious.
+
+Then, when I removed all the transforms for the reduced-motion option, the hover no longer had any style, so that's why I added the box shadow to it at that point.
+
+One quirk about applying transform to focus and hover styles is that if the user focuses and hovers on a component at the same time, it gets transformed twice. I don't know yet how to prevent that double transform from happening.
+
+**Link(s) to work**
+
+1. [Repo](https://github.com/franco-ortega/portfolio)
+1. [Pull Request](https://github.com/franco-ortega/portfolio/pull/253)
 1. [Website](https://francoortega.com/)
 
 ---
