@@ -358,13 +358,17 @@ One quirk about applying transform to focus and hover styles is that if the user
 
 ---
 
+### Day 79: Monday, October 18, 2021
+
 **Project:** Storybook
 
 **Tech:** React, TypeScript
 
-**Today's Progress:** (1.5 hrs)
+**Today's Progress:** (0.5 hrs) Built a feature to display the user's most recent selection in the Chapters component. Updated the test data to make it more clear which chapter that each selection comes from. Added the current props (two of which were missing) to the ChapterDetails test.
 
-**Thoughts:**
+**Thoughts:** It felt good to get back to this practice after a few weeks of diving deeper into Sass and applying a lot of it to my portfolio site. Part of the reason I spent that time on Sass was to determine if I wanted to style this project with it. It was either going to be Sass or Tailwind. Now that I have a much better feel for and understanding of Sass, I want to put that into practice, so I will be adding that soon. I do still want to get more experience with Tailwind, but it seems like combining Tailwind with TypeScript might be a tricky way to get a better grasp on Tailwind, so I'll use a straight up React app for that.
+
+Anyway, one idea that came to me today by looking at this app with fresh eyes was that it could be helpful for the user to see their most recent selection. I am intentionally not showing them their whole story until the end because I want to be a bit of a surprise, but they might find it helpful to keep in mind their latest seletion while picking the next one. Especially now that they have the ability to look at a chapter but back out of it without making a selection. If they look at several chapters before making their next selection, it might be that enough time has passed that they don't quite remember their previous selection. But now they can see if every time that they return to the Chapters component. Maybe I'll add it to the ChapterDetails component, too, so they can see their latest selection while picking the next one.
 
 **Link(s) to work**
 
