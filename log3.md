@@ -88,7 +88,7 @@ I needed to use bracket notation because the key of the styles object was not kn
 
 **Link(s) to work**
 
-1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
+1. [Repo](https://github.com/franco-ortega/demo-sass-02-react)
 1. [Pull Request #1 - refactor SaturationBox](https://github.com/franco-ortega/demo-sass-02-react/pull/2)
 1. [Pull Request #2 - replace if else statment with bracket notation](https://github.com/franco-ortega/demo-sass-02-react/pull/3)
 1. [Website](https://tell-your-tale.netlify.app/)
@@ -107,7 +107,7 @@ I needed to use bracket notation because the key of the styles object was not kn
 
 **Link(s) to work**
 
-1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
+1. [Repo](https://github.com/franco-ortega/demo-sass-02-react)
 1. [Pull Request](https://github.com/franco-ortega/demo-sass-02-react/pull/4)
 1. [Website](https://tell-your-tale.netlify.app/)
 
@@ -125,7 +125,7 @@ I needed to use bracket notation because the key of the styles object was not kn
 
 **Link(s) to work**
 
-1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
+1. [Repo](https://github.com/franco-ortega/demo-sass-02-react)
 1. [Pull Request](https://github.com/franco-ortega/demo-sass-02-react/pull/5)
 1. [Website](https://tell-your-tale.netlify.app/)
 
@@ -145,7 +145,7 @@ Also along strange styling lines, when I added **display: flex** to a component 
 
 **Link(s) to work**
 
-1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
+1. [Repo](https://github.com/franco-ortega/demo-sass-02-react)
 1. [Pull Request #1](https://github.com/franco-ortega/demo-sass-02-react/pull/6)
 1. [Pull Request #2](https://github.com/franco-ortega/demo-sass-02-react/pull/7)
 1. [Website](https://tell-your-tale.netlify.app/)
@@ -373,3 +373,5 @@ One quirk about applying transform to focus and hover styles is that if the user
 1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
 1. [Pull Request](https://github.com/franco-ortega/ts-02-storybook/pull/8)
 1. [Website](https://tell-your-tale.netlify.app/)
+
+https://github.com/franco-ortega/ts-02-storybook/pull/15
