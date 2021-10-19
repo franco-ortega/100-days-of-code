@@ -358,6 +358,43 @@ One quirk about applying transform to focus and hover styles is that if the user
 
 ---
 
+### Day 77: Saturday, October 16, 2021
+
+**Project:** Portfolio
+
+**Tech:** React, Sass
+
+**Today's Progress:** (1 hr) Replaced the mobile media queries in several components with the media-query mixin for mobile.
+
+**Thoughts:** I had started this work a couple weeks ago but then got sidetracked - in a beneficial way - by creating proper styling for landscape orientation on mobile and updating the css modules of many components into scss modules with nested selectors (which helped reduce the amount of class names), so it was good to get back to this.
+
+**Link(s) to work**
+
+1. [Repo](https://github.com/franco-ortega/portfolio)
+1. [Pull Request](https://github.com/franco-ortega/portfolio/pull/255)
+1. [Website](https://francoortega.com/)
+
+---
+
+### Day 78: Sunday, October 17, 2021
+
+**Project:** Portfolio
+
+**Tech:** React, Sass
+
+**Today's Progress:** (3 hr) I added and fine tuned media queries in order to have the site display well when the browser is narrow on desktop screens (i.e. less than 900px wide while also having a height of less than 1000px, which is shorter than a tablet screen, but also a height of more than 500px, which is taller than landscape orientation on mobile). Adjusted the placement of Legend on mobile screens. Revamped the compass to be more evenly responsive.
+
+**Thoughts:** It felt really good to fix how the site looked on narrow desktop screens. Between the changes I made to the main grid and the changes to make landscape orientation look good on mobile, it seemed to have screwed up how it looked on narrow desktop screens, and it was difficult at first to figure out how to fix it. But I used the Firefox dev tools (after hearing really good things about them this weekend on video tutorials) to see how the main grid and inner grids were working at different screen sizes, and that helped a lot with figuring out a solution. Then, I overhauled the compass in a way that made its parts stay fairly proportional across all screen sizes. The original code for the compass resulted in the points changing sizes notably across different screen sizes, and even with media queries to mitigate these affects, I still wasn't able to get the compass points to remain equally proportional at different screen sizes. However, being able to see its grid allowed me to see that the compass parts were distorting the grid, so I worked on changing the parts and grid to keep the grid a consistent shape, and that went a long way to keeping the compass proportional across different screen sizes. My recent deeper understanding of the position property helped too. Quite honestly, when I first created the compass, I didn't have a great understanding of how the CSS was working to create the points. The points were triangles created by manipulating the different border sides (top, left, etc), which I learned how to do through tutorials, and I was able to combine these triangle with circles to form the compass, but it was a hodgepodge effort more based on trial & error than understanding of the code. So it makes sense that the result was somewhat unwieldy and hard to control. This revamp, however, was based on my much deeper understanding of the CSS properties that were used and new ones that helped make it better (such as the position property).
+
+**Link(s) to work**
+
+1. [Repo](https://github.com/franco-ortega/portfolio)
+1. [Pull Request #1 - narrow desktop view](https://github.com/franco-ortega/portfolio/pull/256)
+1. [Pull Request #2 - compass updates](https://github.com/franco-ortega/portfolio/pull/261)
+1. [Website](https://francoortega.com/)
+
+---
+
 ### Day 79: Monday, October 18, 2021
 
 **Project:** Storybook
