@@ -306,9 +306,9 @@ Also, it was really great to put the power of Sass to use on my portfolio site. 
 
 **Tech:** React, Sass
 
-**Today's Progress:** (3 hr) - Legend media queries. GitHub and LinkedIn move to the right on mobile.
+**Today's Progress:** (3 hr) - Added and adjusted Legend media queries. Fine tuned placement of GitHub and LinkedIn islands on mobile.
 
-**Thoughts:**
+**Thoughts:** The recent refactor of the main grid on the Ocean component resulted in the Legend component overlapping the header text on smaller screens. It took quite a bit of trial and error, but I was able to get it looking good on all screens again.
 
 **Link(s) to work**
 
