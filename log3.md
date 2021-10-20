@@ -415,6 +415,27 @@ Anyway, one idea that came to me today by looking at this app with fresh eyes wa
 
 ---
 
+### Day 80: Tuesday, October 19, 2021
+
+**Project:** Storybook
+
+**Tech:** React, TypeScript
+
+**Today's Progress:** (2 hrs) Added props to the tests that were missing them. Tried to mock the useParams hook in the ChapterDetails test but was not able to do so. Removed userSelections state from ChapterDetails. Renamed the userSelections type to Selections in order to differentiate it from the userSelections state. Added an enum to hold the strings for endpoints.
+
+**Thoughts:** Figuring out how to test the useParams hook is very challenging. Neither the documentation for the React Testing Library nor several articles or StackOverflow posts on the subject were able to get me there. The same "undefined" error for the params continues to come up. I spent way too much time trying to figure that out. At least I was able to update the ChapterDetails component in a way that allows the setUserSelections function to also redirect the user to the proper component. I'm not sure if the Endpoints enum would make sense for best practices, but it does help to avoid mistyping magic strings.
+
+**Link(s) to work**
+
+1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
+1. [Commit #1 - update tests](https://github.com/franco-ortega/ts-02-storybook/commit/9eacfabf025429d087eaeb6cd0addf2c3e6b181c)
+1. [Commit #2 - remove userSelections state](https://github.com/franco-ortega/ts-02-storybook/commit/66d0f4ad898813a9a022f254d8326afe9c4e765d)
+1. [Commit #3 - rename userSelections type](https://github.com/franco-ortega/ts-02-storybook/commit/d0a702dcbdb01fd5d6e20e9fe9882bca6a9471e5)
+1. [Commit #4 - add Endpoints enum](https://github.com/franco-ortega/ts-02-storybook/commit/7ae506fddccc291fa98a815c268b9710c3b6c193)
+1. [Website](https://tell-your-tale.netlify.app/)
+
+---
+
 ### Day ??: ?day, October ??, 2021
 
 **Project:**
