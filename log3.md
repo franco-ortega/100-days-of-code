@@ -290,7 +290,7 @@ Also, it was really great to put the power of Sass to use on my portfolio site. 
 
 **Today's Progress:** (1 hr) - Changed all the remaining css files to scss files. Adjusted the position of Profile on mobile.
 
-**Thoughts:**
+**Thoughts:** I didn't realize how many components that my portfolio site had. It's over 30! So this task took some time.
 
 **Link(s) to work**
 
