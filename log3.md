@@ -436,6 +436,21 @@ Anyway, one idea that came to me today by looking at this app with fresh eyes wa
 
 ---
 
+### Day 81: Wednesday, October 20, 2021
+
+**Project:** Sundial
+
+**Tech:** React, Node
+
+**Today's Progress:** (1 hr) I implemented the feedback received for this take-home project from last month. It had to do with keeping data stored "in memory" without a database for a Node server. I actually had to make more changes to the code besides just what the interviewer shared, but I was able to get it working with this alternate approach, and it didn't take long either. Then, I spent some time refactoring my old code.
+
+**Thoughts:** My first approach at storing data without a database was to use Redis. That worked great. However, the interviewer said that Redis was a database, so it didn't meet the "databaseless" requirement. My next approach was to create a file with the data that was updated accordingly as the data was updated. That worked well too. Unfortuntely, this approach was also rejected. That was the end of my interview process with that company. The feedback was only a high level look at their solution for this issue. I wish they would have provided feedback on the entire fullstack app because I was able to get it all working, and with multiple approaches too. I just didn't figure out the specific approach that they wanted. At least afterwards they gave me a rough idea of how to do it, and it felt good to be able to implement it so easily. And I did learn a bit more about how a Node server can hold onto changing data even if it isn't being stored anywhere persistent.
+
+**Link(s) to work**
+I am not allowed to share the code for this project, so no links this time.
+
+---
+
 ### Day ??: ?day, October ??, 2021
 
 **Project:**
