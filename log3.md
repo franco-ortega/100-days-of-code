@@ -451,6 +451,24 @@ I am not allowed to share the code for this project, so no links this time.
 
 ---
 
+### Day 82 Thursday, October 21 2021
+
+**Project:** Glowing Colors
+
+**Tech:** React, CSS
+
+**Today's Progress:** Added open graph meta tags and meta tags for a Twitter card.
+
+**Thoughts:** I am going to add this app to my portfolio site, so I wanted to add the meta tags to display information when I link it on Twitter and other platforms.
+
+**Link(s) to work**
+
+1. [Repo](https://github.com/franco-ortega/glowing-colors)
+1. [Pull Request](https://github.com/franco-ortega/glowing-colors/pull/16)
+1. [Website](https://glowing-colors.netlify.app/)
+
+---
+
 ### Day ??: ?day, October ??, 2021
 
 **Project:**
@@ -463,6 +481,6 @@ I am not allowed to share the code for this project, so no links this time.
 
 **Link(s) to work**
 
-1. [Repo](https://github.com/franco-ortega/ts-02-storybook)
-1. [Pull Request](https://github.com/franco-ortega/ts-02-storybook/pull/8)
-1. [Website](https://tell-your-tale.netlify.app/)
+1. [Repo](https://github.com/franco-ortega/glowing-colors)
+1. [Pull Request](https://github.com/franco-ortega/glowing-colors/pull/16)
+1. [Website](https://glowing-colors.netlify.app/)
