@@ -469,6 +469,24 @@ I am not allowed to share the code for this project, so no links this time.
 
 ---
 
+### Day 83 Friday, October 22, 2021
+
+**Project:** Student Search
+
+**Tech:** React
+
+**Tools:** Miro
+
+**Today's Progress:** (2 hr) Started making a plan for a new take-home project from a a place that I applied. I used Miro to sketch out a low level wireframe of all the components. Also figured out how to munge the data that will be fetched from an API.
+
+**Thoughts:** Looks like ten components, including one reusuable "search" component to be used in two separate parent components for different serach categories. Plus two components ("student" and "tag") that will be used to create elements for data that gets mapped.
+
+**Link(s) to work**
+
+No links for this project because I am not allowed to share it with the public.
+
+---
+
 ### Day ??: ?day, October ??, 2021
 
 **Project:**
