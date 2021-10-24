@@ -487,6 +487,23 @@ No links for this project because I am not allowed to share it with the public.
 
 ---
 
+### Day 84 Saturday, October 23 2021
+
+**Project:** Rest
+
+**Tech:** Yoga, bike, boardgames.
+
+**Today's Progress:** A day of rest. I did some food prep and yoga this morning. Then, I biked across the city in the rain to play a couple boardgames with friends (Eclipse and Mechs vs Minions).
+
+**Thoughts:** This was my first since Day 36, so it was much deserved and felt great.
+
+**Link(s) to work**
+
+1. [Eclipse](https://boardgamegeek.com/boardgame/72125/eclipse)
+1. [Mechs vs Minions](https://www.boardgamegeek.com/boardgame/209010/mechs-vs-minions)
+
+---
+
 ### Day ??: ?day, October ??, 2021
 
 **Project:**
