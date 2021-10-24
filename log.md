@@ -1618,3 +1618,11 @@ No links for this project because I am not allowed to share it with the public.
 1. [Repo](https://github.com/franco-ortega/glowing-colors)
 1. [Pull Request](https://github.com/franco-ortega/glowing-colors/pull/16)
 1. [Website](https://glowing-colors.netlify.app/)
+
+---
+
+---
+
+1. [August](#1-august)
+1. [September](#2-september)
+1. [October](#3-october)
