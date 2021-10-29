@@ -1553,7 +1553,7 @@ I am not allowed to share the code for this project, so no links this time.
 
 ---
 
-### Day 82 Thursday, October 21 2021
+### Day 82: Thursday, October 21 2021
 
 **Project:** Glowing Colors
 
@@ -1571,7 +1571,7 @@ I am not allowed to share the code for this project, so no links this time.
 
 ---
 
-### Day 83 Friday, October 22, 2021
+### Day 83: Friday, October 22, 2021
 
 **Project:** Student Search
 
@@ -1589,7 +1589,7 @@ No links for this project because I am not allowed to share it with the public.
 
 ---
 
-### Day 84 Saturday, October 23 2021
+### Day 84: Saturday, October 23, 2021
 
 **Project:** Rest
 
@@ -1603,6 +1603,68 @@ No links for this project because I am not allowed to share it with the public.
 
 1. [Eclipse](https://boardgamegeek.com/boardgame/72125/eclipse)
 1. [Mechs vs Minions](https://www.boardgamegeek.com/boardgame/209010/mechs-vs-minions)
+
+---
+
+### Day 85: Sunday, October 24, 2021
+
+**Project:** Hide & Seek app
+
+**Tech:**
+
+**Today's Progress:**
+
+**Thoughts:**
+
+**Link(s) to work**
+
+---
+
+### Day 86: Monday, October 25, 2021
+
+**Project:** Student Search (take-home project)
+
+**Tech:** React
+
+**Today's Progress:**
+
+**Thoughts:**
+
+---
+
+### Day 87: Tuesday, October 26, 2021
+
+**Project:** Student Search (take-home project)
+
+**Tech:** React
+
+**Today's Progress:**
+
+**Thoughts:**
+
+---
+
+### Day 88: Wednesday, October 27, 2021
+
+**Project:** Student Search (take-home project)
+
+**Tech:** React
+
+**Today's Progress:**
+
+**Thoughts:**
+
+---
+
+### Day 89: Thursday, October 28, 2021
+
+**Project:** Student Search (take-home project)
+
+**Tech:** React
+
+**Today's Progress:**
+
+**Thoughts:**
 
 ---
 
