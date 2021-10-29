@@ -1610,13 +1610,18 @@ No links for this project because I am not allowed to share it with the public.
 
 **Project:** Hide & Seek app
 
-**Tech:**
+**Tech:** React, Sass
 
-**Today's Progress:**
+**Today's Progress:** I had to update a dependency (browserslist) and change the eslint file from js to json in order to make the build work on Netlify.
 
-**Thoughts:**
+**Thoughts:** I noticed that the meta tags (for link previews) from a couple days prior didn't seem to be working. After checking the code and making some changes, which still didn't make the previews work, I checked the build log on Netlify and saw that it had been failing since the prior changes. Luckily, the logs told me the issue and how to fix it. First, I updated the browserslist dependency (something in the node modules). The build failed again, but there was a new message about the eslist file, and it offered a few suggestions, but changing the eslint file from a JavaScript file to a JSON file seemed like the easiest fix. The build succeeded after I made that change, and then, the link preview worked.
 
 **Link(s) to work**
+
+1. [Repo](https://github.com/franco-ortega/hide-and-seek)
+1. [Pull Request #1 - update dependency](https://github.com/franco-ortega/hide-and-seek/pull/40)
+1. [Pull Request #2 - change eslint file](https://github.com/franco-ortega/hide-and-seek/pull/41)
+1. [Website](https://hide-and-seek-game.netlify.app/)
 
 ---
 
