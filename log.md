@@ -1631,9 +1631,9 @@ No links for this project because I am not allowed to share it with the public.
 
 **Tech:** React
 
-**Today's Progress:**
+**Today's Progress:** (4 hrs) I spent an hour finishing my plan and completed the first 3 (out of 5) steps of this new take-home project. Step 1 was making a fetch request to an API, munging the data, and displaying the data on a website (that I built with React). Step 2 was to style the website to match images and videos of the website that were provided. Step 3 was to add a search bar to filter the data displayed on the site.
 
-**Thoughts:**
+**Thoughts:** This was my first time using a class object for a frontend project. Usually, I use regular objects when working with React. However, in addition to needing to store properties from each piece of API data, I also needed to run logic on one of the properties of each object, so that felt like a great use case for a class method. It wound up working perfectly!
 
 ---
 
