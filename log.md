@@ -1717,6 +1717,26 @@ I am not allowed to share code from this take-home project.
 
 ---
 
+### Day 92: Sunday, October 31, 2021
+
+**Project:** Goblin Server
+
+**Tech:** Node, Express, PostgreSQL
+
+**Today's Progress:** I started making a server that will have a database and API. First I made a simple server with Express that ran locally. Then, I setup a database on Heroku and created a sql file for my first table (goblins). Finally, I built a simple GET endpoint that responded with some HTML just to make sure everything was wired up properly. You can view it at the Database link below.
+
+**Thoughts:** Things went smoothly. I documented every step in my process in the README, as I tend to do, but I was more detailed this time. I usually just list the dependencies and file structure, but this time I also jotted down a few extra notes like what I added to the eslint and files. Additionally, I documented the steps for setting up a server, database, and API in my Dev Notes document for easy reference (so I don't need to refer to these READMEs each time I want to review my overall process).
+
+**Link(s) to work**
+
+1. [Repo](https://github.com/franco-ortega/demo-04-server-goblins)
+1. [Pull Request #1 - Server](https://github.com/franco-ortega/demo-04-server-goblins/pull/1)
+1. [Pull Request #2 - Database](https://github.com/franco-ortega/demo-04-server-goblins/pull/2)
+1. [Pull Request #3 - API](https://github.com/franco-ortega/demo-04-server-goblins/pull/3)
+1. [Database](https://goblin-database.herokuapp.com/)
+
+---
+
 ### Day ??: ?day, October ??, 2021
 
 **Project:**
@@ -1732,8 +1752,6 @@ I am not allowed to share code from this take-home project.
 1. [Repo](https://github.com/franco-ortega/glowing-colors)
 1. [Pull Request](https://github.com/franco-ortega/glowing-colors/pull/16)
 1. [Website](https://glowing-colors.netlify.app/)
-
----
 
 ---
 
