@@ -1635,6 +1635,10 @@ No links for this project because I am not allowed to share it with the public.
 
 **Thoughts:** This was my first time using a class object for a frontend project. Usually, I use regular objects when working with React. However, in addition to needing to store properties from each piece of API data, I also needed to run logic on one of the properties of each object, so that felt like a great use case for a class method. It wound up working perfectly!
 
+**Link(s) to work**
+
+I am not allowed to share code from this take-home project.
+
 ---
 
 ### Day 87: Tuesday, October 26, 2021
@@ -1643,9 +1647,13 @@ No links for this project because I am not allowed to share it with the public.
 
 **Tech:** React
 
-**Today's Progress:**
+**Today's Progress:** (4 hrs) I completed the final two steps of this take-home project. Step 4 was to add a button that appeared with the info for each student and provide the ability for users to be able to click on the button (styled as a plus sign) in order to display additional info (at which point the button styling changed to a minus sign). Step 5 was to add an input and the ability for users to add "tags" (text styled in an element) to students and to add a search bar to filter students based on their tags. And to be clear, each button only displayed info for its particular student, and similarly, each input only added the tags to its particular student.
 
-**Thoughts:**
+**Thoughts:** This was a great exercise. I created custom hooks to create the state and handle the functionality for each of these features. This allowed the state for each student to remain separate from all the other students.
+
+**Link(s) to work**
+
+I am not allowed to share code from this take-home project.
 
 ---
 
@@ -1659,6 +1667,10 @@ No links for this project because I am not allowed to share it with the public.
 
 **Thoughts:**
 
+**Link(s) to work**
+
+I am not allowed to share code from this take-home project.
+
 ---
 
 ### Day 89: Thursday, October 28, 2021
@@ -1670,6 +1682,10 @@ No links for this project because I am not allowed to share it with the public.
 **Today's Progress:**
 
 **Thoughts:**
+
+**Link(s) to work**
+
+I am not allowed to share code from this take-home project.
 
 ---
 
