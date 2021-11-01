@@ -1689,6 +1689,34 @@ I am not allowed to share code from this take-home project.
 
 ---
 
+### Day 90: Friday, October 29, 2021
+
+**Project:** Student Search (take-home project)
+
+**Tech:** React
+
+**Today's Progress:**
+
+**Thoughts:**
+
+**Link(s) to work**
+
+I am not allowed to share code from this take-home project.
+
+---
+
+### Day 91: Saturday, October 30, 2021
+
+**Project:** Rest
+
+**Tech:** Baking, D&D, Halloween party.
+
+**Today's Progress:** A day of rest. I baked pumpkin bread in the morning and shared it with friends while playing Dungeons & Dragons in the afternoon. Then, I brought the rest of the pumpkin bread to a Halloween party with former classmates from code school.
+
+**Thoughts:** Rest days are super sweet and rejuvenating.
+
+---
+
 ### Day ??: ?day, October ??, 2021
 
 **Project:**
