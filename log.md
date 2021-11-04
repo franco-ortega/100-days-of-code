@@ -1719,7 +1719,7 @@ I am not allowed to share code from this take-home project.
 
 ### Day 92: Sunday, October 31, 2021
 
-**Project:** Goblin Server
+**Project:** Goblins server
 
 **Tech:** Node, Express, PostgreSQL
 
@@ -1734,6 +1734,76 @@ I am not allowed to share code from this take-home project.
 1. [Pull Request #2 - Database](https://github.com/franco-ortega/demo-04-server-goblins/pull/2)
 1. [Pull Request #3 - API](https://github.com/franco-ortega/demo-04-server-goblins/pull/3)
 1. [Database](https://goblin-database.herokuapp.com/)
+
+---
+
+### Day 93: Monday, November 1, 2021
+
+**Project:** Goblins server
+
+**Tech:** Node, Express, PostgreSQL
+
+**Today's Progress:** I built a model (Goblin) and then tests, methods, and endpoints for GET and POST requests.
+
+**Thoughts:**
+
+**Link(s) to work**
+
+1. [Repo](https://github.com/franco-ortega/demo-04-server-goblins)
+1. [Pull Request](https://github.com/franco-ortega/demo-04-server-goblins/pull/4)
+1. [Database](https://goblin-database.herokuapp.com/)
+1. [API](https://goblin-database.herokuapp.com/api/v1/goblins)
+
+---
+
+### Day 94: Tuesday, November 2, 2021
+
+**Project #1:** Goblins client
+
+**Tech:** React
+
+**Today's Progress:** I started building the website for my Goblins app by creating a fetch request to get the data from the Goblins server, and then display it on the screen.
+
+**Thoughts:**
+
+**Link(s) to work**
+
+1. [Repo](https://github.com/franco-ortega/demo-04-client-goblins)
+1. [Pull Request](https://github.com/franco-ortega/demo-04-client-goblins/pull/1)
+1. [Website](https://goblins.netlify.app/)
+
+**Project #2:** Goblins server
+
+**Tech:** Node, Express, PostgreSQL
+
+**Today's Progress:** I noticed that the live server on Heroku was not working. Hitting up the endpoint resulted in a 500 Internal Server Error even though the build had succeeded. It turned out that I needed to add an "engines" object to the package.json with a property specifying the version of Node that my server is using.
+
+**Thoughts:**
+
+**Link(s) to work**
+
+1. [Repo](https://github.com/franco-ortega/demo-04-server-goblins)
+1. [Pull Request](https://github.com/franco-ortega/demo-04-server-goblins/pull/5)
+1. [Database](https://goblin-database.herokuapp.com/)
+1. [API](https://goblin-database.herokuapp.com/api/v1/goblins)
+
+---
+
+### Day 95: Wednesday, November 3, 2021
+
+**Project:** Goblins client
+
+**Tech:** React
+
+**Today's Progress:**
+
+**Thoughts:**
+
+**Link(s) to work**
+
+1. [Repo](https://github.com/franco-ortega/demo-04-client-goblins)
+1. [Pull Request](https://github.com/franco-ortega/demo-04-client-goblins/pull/1)
+1. [Website](https://goblins.netlify.app/)
 
 ---
 
