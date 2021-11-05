@@ -1813,9 +1813,11 @@ I am not allowed to share code from this take-home project.
 
 **Tech:** React
 
-**Today's Progress:** Add customized hit points and armor class to POST request for insertGoblin.
+**Today's Progress:** (2 hrs) The form to handle the POST request for insertGoblin started with an input for the user to type in a name. Today I added the ability to customize the hit points and armor class. Both stats start out at a minimum value, and there are 5 points available that can be used to spread between the two stats. For example, a user could add 2 out of 5 points to hit point and the 3 remaining points to armor class. Each stat has a pair of buttons to change its value. The buttons to increment that stats are disabled when the 5 points are all allocated. The buttons to decrement the stats are disabled when a stat is at its minimum value. The user may adjust the stats as much as they want before they submit the form.
 
-**Thoughts:**
+**Thoughts:** This was my first time setting up logic where two piece of state (hp and AC) were linked to a third piece of state (points available). Disabling the buttons was a very effective way to limit the user from exceeding the lower and upper limits of the stats. My initial thought was to create logic that included conditional statements to prevent the state from exceed the limits, but disabling the buttons seems like a cleaner, more readable approach.
+
+Also, the state and click handlers for the hit points and armor class were almost identical, so I used an encapsulation approach that I learned at CascadiaJS to create a single custom hook that created state and click handlers, which were applied to each stat. Additionally, I created reusable button components for incrementing and decrementing values. All this refactoring cleaned up most of the redundant code in the GoblinForm.
 
 **Link(s) to work**
 
