@@ -1824,6 +1824,23 @@ Also, the state and click handlers for the hit points and armor class were almos
 1. [Repo](https://github.com/franco-ortega/demo-04-client-goblins)
 1. [Pull Request](https://github.com/franco-ortega/demo-04-client-goblins/pull/3)
 1. [Website](https://goblins.netlify.app/)
+---
+
+### Day 97: Friday, November 5, 2021
+
+**Project:** Goblins client
+
+**Tech:** React
+
+**Today's Progress:** (2 hrs) Added the ability to add items to the GoblinForm. Did some minimal styling too.
+
+**Thoughts:** 
+
+**Link(s) to work**
+
+1. [Repo](https://github.com/franco-ortega/demo-04-client-goblins)
+1. [Pull Request](https://github.com/franco-ortega/demo-04-client-goblins/pull/4)
+1. [Website](https://goblins.netlify.app/)
 
 ---
 
