@@ -1802,7 +1802,25 @@ I am not allowed to share code from this take-home project.
 **Link(s) to work**
 
 1. [Repo](https://github.com/franco-ortega/demo-04-client-goblins)
-1. [Pull Request](https://github.com/franco-ortega/demo-04-client-goblins/pull/1)
+1. [Pull Request](https://github.com/franco-ortega/demo-04-client-goblins/pull/2)
+1. [Website](https://goblins.netlify.app/)
+
+---
+
+### Day 96: Thursday, November 4, 2021
+
+**Project:** Goblins client
+
+**Tech:** React
+
+**Today's Progress:** Add customized hit points and armor class to POST request for insertGoblin.
+
+**Thoughts:**
+
+**Link(s) to work**
+
+1. [Repo](https://github.com/franco-ortega/demo-04-client-goblins)
+1. [Pull Request](https://github.com/franco-ortega/demo-04-client-goblins/pull/3)
 1. [Website](https://goblins.netlify.app/)
 
 ---
