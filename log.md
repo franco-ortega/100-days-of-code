@@ -1877,21 +1877,46 @@ Also, the state and click handlers for the hit points and armor class were almos
 
 ---
 
-### Day ??: ?day, October ??, 2021
+### Day 99: Sunday, November 7, 2021
 
-**Project:**
+**Project:** Star Wars Characters
 
-**Tech:**
+**Tech:** React
 
-**Today's Progress:**
+**Today's Progress:** (8 hrs) I spent a few hours making a plan on Miro and getting familiar with the API. Then, I completed most of the project with employing Test Driven Development. This included fetching and displaying the data, running calculations on the data, and being able to page through the data ten items at a time.
 
-**Thoughts:**
+**Thoughts:** This was a take-home project from a place that I applied last month. The bulk of it was fairly straightforward, but there were some new aspects and challenges as well. Such as putting in safeguards for when the data for calculations was missing or needed to be formatted properly first. It also took some effort to make sure that components which required the fetched data to render didn't render before the data was retrieved.
 
 **Link(s) to work**
 
-1. [Repo](https://github.com/franco-ortega/glowing-colors)
-1. [Pull Request](https://github.com/franco-ortega/glowing-colors/pull/16)
-1. [Website](https://glowing-colors.netlify.app/)
+1. [Repo](https://github.com/franco-ortega/react-star-wars)
+1. [Pull Request - Header](https://github.com/franco-ortega/react-star-wars/pull/2)
+1. [Pull Request - Loading](https://github.com/franco-ortega/react-star-wars/pull/3)
+1. [Pull Request - Fetch and display data](https://github.com/franco-ortega/react-star-wars/pull/4)
+1. [Pull Request - Display averages](https://github.com/franco-ortega/react-star-wars/pull/5)
+1. [Pull Request - Pagination](https://github.com/franco-ortega/react-star-wars/pull/6)
+
+---
+
+### Day 100: Monday, November 8, 2021
+
+**Project:** Star Wars Characters
+
+**Tech:** React
+
+**Today's Progress:** (5 hrs) I completed this take-home project. This included adding a search component, finalizing the styling (which was part of the requirement), and misc adjustments and fixes.
+
+**Thoughts:** The API was kind of quirky in the sense that sending a fetch request with an empty search query resulted in a search that displayed all the results. This effectively worked the same as making a fetch request to get all the results, so I removed the get all fetch request and just used the search fetch request to get both all results and search specific results. Also, it was somewhat tricky wiring everything up so that clicking on the Search button didn't create a search that broke things, but between adjustments to the logic and disabling the Search button when the search bar is empty, that seems to have handled all the bugs.
+
+And hey, this is day 100!!!!!!!!!!!!!!!!!!!
+
+**Link(s) to work**
+
+1. [Repo](https://github.com/franco-ortega/react-star-wars)
+1. [Pull Request - Search](https://github.com/franco-ortega/react-star-wars/pull/8)
+1. [Pull Request - Persist componenet](https://github.com/franco-ortega/react-star-wars/pull/9)
+1. [Pull Request - Media queries](https://github.com/franco-ortega/react-star-wars/pull/10)
+1. [Pull Request - Misc](https://github.com/franco-ortega/react-star-wars/pull/11)
 
 ---
 
