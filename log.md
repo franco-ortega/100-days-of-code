@@ -3,7 +3,8 @@
 1. [August](#1-august)
 1. [September](#2-september)
 1. [October](#3-october)
-1. [Bottom](#4-bottom)
+1. [November](#4-november)
+1. [Bottom](#5-bottom)
 
 ---
 
@@ -488,7 +489,8 @@ Also, I spent some time trying out the CSS functions clamp, min, and max.
 1. [August](#1-august)
 1. [September](#2-september)
 1. [October](#3-october)
-1. [Bottom](#4-bottom)
+1. [November](#4-november)
+1. [Bottom](#5-bottom)
 
 ---
 
@@ -1095,8 +1097,9 @@ _./node_modules/.bin/sass --watch src/scss:dist/css_
 
 1. [August](#1-august)
 1. [September](#2-september)
-1. [October](#3-October)
-1. [Bottom](#4-bottom)
+1. [October](#3-october)
+1. [November](#4-november)
+1. [Bottom](#5-bottom)
 
 ---
 
@@ -1737,6 +1740,18 @@ I am not allowed to share code from this take-home project.
 
 ---
 
+---
+
+## 4. November
+
+1. [August](#1-august)
+1. [September](#2-september)
+1. [October](#3-october)
+1. [November](#4-november)
+1. [Bottom](#5-bottom)
+
+---
+
 ### Day 93: Monday, November 1, 2021
 
 **Project:** Goblins server
@@ -1824,6 +1839,7 @@ Also, the state and click handlers for the hit points and armor class were almos
 1. [Repo](https://github.com/franco-ortega/demo-04-client-goblins)
 1. [Pull Request](https://github.com/franco-ortega/demo-04-client-goblins/pull/3)
 1. [Website](https://goblins.netlify.app/)
+
 ---
 
 ### Day 97: Friday, November 5, 2021
@@ -1834,13 +1850,30 @@ Also, the state and click handlers for the hit points and armor class were almos
 
 **Today's Progress:** (2 hrs) Added the ability to add items to the GoblinForm. Did some minimal styling too.
 
-**Thoughts:** 
+**Thoughts:**
 
 **Link(s) to work**
 
 1. [Repo](https://github.com/franco-ortega/demo-04-client-goblins)
 1. [Pull Request](https://github.com/franco-ortega/demo-04-client-goblins/pull/4)
 1. [Website](https://goblins.netlify.app/)
+
+---
+
+### Day 98: Saturday, November 6, 2021
+
+**Project:** Rest
+
+**Tech:** Baking, board games, relaxing.
+
+**Today's Progress:** A day of rest. I baked pumpkin bread in the morning and shared it with friends while playing Eclipse and Mechs vs Minions all afternoon and into the evening. Then, I wound down with a mellow night at home.
+
+**Thoughts:** It was sweet to get in one more rest day before the end of these 100 days.
+
+**Link(s) to work**
+
+1. [Eclipse](https://boardgamegeek.com/boardgame/72125/eclipse)
+1. [Mechs vs Minions](https://www.boardgamegeek.com/boardgame/209010/mechs-vs-minions)
 
 ---
 
@@ -1862,9 +1895,10 @@ Also, the state and click handlers for the hit points and armor class were almos
 
 ---
 
-# 4. Bottom
+# 5. Bottom
 
 1. [August](#1-august)
 1. [September](#2-september)
 1. [October](#3-october)
-1. [Bottom](#4-bottom)
+1. [November](#4-november)
+1. [Bottom](#5-bottom)
